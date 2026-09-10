@@ -1,6 +1,7 @@
 import React from "react";
+import VeterinaryAssistance from "./VeterinaryAssistance";
 
-export default function RiskReport({ result, onReset, onViewHistory }) {
+export default function RiskReport({ result, onReset, onViewHistory, onOpenAuth }) {
   if (!result) return null;
 
   const { animalId, risk_score, risk_level, contributing_factors, recommendation, disclaimer, model_version } = result;
@@ -60,6 +61,17 @@ export default function RiskReport({ result, onReset, onViewHistory }) {
       <div className="disclaimer-box">
         <strong>⚠️ VETERINARY SAFETY DISCLAIMER:</strong> {disclaimer || "This model estimates risk based on farmer observations and is NOT a medical diagnosis. Consult a qualified veterinarian for diagnosis and treatment plans."}
       </div>
+
+      {/* Recommended Verified Local Veterinarians for High/Medium Risk */}
+      {(risk_level === "high" || risk_level === "medium" || risk_score > 35) && (
+        <VeterinaryAssistance
+          farmerLocation={result.farmerLocation}
+          predictionResult={result}
+          animalId={animalId}
+          observations={result.observations || result.inputData}
+          onOpenAuth={onOpenAuth}
+        />
+      )}
 
       <div className="btn-row" style={{ marginTop: "1.5rem" }}>
         <button className="btn btn-secondary" onClick={onReset}>

@@ -1,6 +1,17 @@
 import React from "react";
 
 export default function UdderObservationForm({ formData, updateFormData, onSubmit, onPrev, isLoading }) {
+  const handleImageFile = (e) => {
+    const file = e.target.files && e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        updateFormData("udder_image", reader.result);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
   return (
     <div className="card">
       <h2 className="card-title">3. Udder Observations</h2>
@@ -63,7 +74,50 @@ export default function UdderObservationForm({ formData, updateFormData, onSubmi
         </div>
       </div>
 
-      <div className="btn-row">
+      {/* Udder Visual Image Capture / Upload Section */}
+      <div className="panel-box" style={{ marginTop: "1.25rem", padding: "1rem" }}>
+        <label style={{ fontWeight: 700, fontSize: "0.9rem", color: "var(--text-dark)", display: "block", marginBottom: "0.35rem" }}>
+          📷 Udder Photo (Optional Visual Record)
+        </label>
+        <p style={{ fontSize: "0.8rem", color: "var(--text-muted)", marginBottom: "0.75rem" }}>
+          Upload or click a photo of the affected udder area to assist consulting veterinarians.
+        </p>
+
+        <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", alignItems: "center" }}>
+          <label className="btn btn-secondary" style={{ fontSize: "0.825rem", cursor: "pointer", display: "inline-flex", alignItems: "center", gap: "0.4rem" }}>
+            📁 Upload Udder Photo
+            <input type="file" accept="image/*" style={{ display: "none" }} onChange={handleImageFile} />
+          </label>
+
+          <label className="btn btn-secondary" style={{ fontSize: "0.825rem", cursor: "pointer", display: "inline-flex", alignItems: "center", gap: "0.4rem" }}>
+            📸 Click Picture (Camera)
+            <input type="file" accept="image/*" capture="environment" style={{ display: "none" }} onChange={handleImageFile} />
+          </label>
+
+          {formData.udder_image && (
+            <button
+              type="button"
+              className="btn btn-secondary"
+              style={{ fontSize: "0.825rem", color: "#ef4444" }}
+              onClick={() => updateFormData("udder_image", null)}
+            >
+              🗑️ Remove Photo
+            </button>
+          )}
+        </div>
+
+        {formData.udder_image && (
+          <div style={{ marginTop: "0.85rem" }}>
+            <img
+              src={formData.udder_image}
+              alt="Udder Observation Preview"
+              style={{ maxHeight: "180px", borderRadius: "8px", border: "1px solid var(--card-border)", objectFit: "cover" }}
+            />
+          </div>
+        )}
+      </div>
+
+      <div className="btn-row" style={{ marginTop: "1.5rem" }}>
         <button className="btn btn-secondary" onClick={onPrev} disabled={isLoading}>
           ← Back
         </button>

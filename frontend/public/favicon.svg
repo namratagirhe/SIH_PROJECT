@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded Square Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  
+  <!-- Shield outline -->
+  <path d="M256 64 L384 112 V232 C384 328 328 408 256 448 C184 408 128 328 128 232 V112 Z" fill="url(#shieldGrad)" stroke="#ffffff" stroke-width="12" opacity="0.95"/>
+  
+  <!-- Cow Head & Medical Cross Combination -->
+  <!-- Cow horns & ears -->
+  <path d="M190 190 Q160 160 140 170 Q160 195 195 210 Z" fill="#ffffff"/>
+  <path d="M322 190 Q352 160 372 170 Q352 195 317 210 Z" fill="#ffffff"/>
+  
+  <!-- Cow Face Outline -->
+  <path d="M195 210 Q256 180 317 210 L310 290 Q256 340 202 290 Z" fill="#ffffff"/>
+  
+  <!-- Muzzle -->
+  <ellipse cx="256" cy="300" rx="42" ry="26" fill="#0f766e"/>
+  <circle cx="240" cy="300" r="5" fill="#ffffff"/>
+  <circle cx="272" cy="300" r="5" fill="#ffffff"/>
+  
+  <!-- Eyes -->
+  <circle cx="218" cy="240" r="9" fill="#0f766e"/>
+  <circle cx="294" cy="240" r="9" fill="#0f766e"/>
+
+  <!-- Medical Plus Symbol on forehead -->
+  <rect x="248" y="200" width="16" height="34" rx="4" fill="#ef4444"/>
+  <rect x="239" y="209" width="34" height="16" rx="4" fill="#ef4444"/>
+</svg>

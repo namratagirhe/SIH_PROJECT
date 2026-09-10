@@ -1,0 +1,51 @@
+{
+  "model_name": "RandomForest",
+  "dataset_source": "Mendeley Data DOI 10.17632/kbvcdw5b4m.1 & Kaggle Dairy Cattle Mastitis",
+  "dataset_version": "1.0.0",
+  "features_used": [
+    "species",
+    "age",
+    "breed",
+    "previous_mastitis",
+    "lactation",
+    "milk_production",
+    "abnormal_milk",
+    "clots_flakes",
+    "watery_milk",
+    "color_change",
+    "udder_swelling",
+    "udder_heat",
+    "udder_pain",
+    "udder_redness",
+    "udder_hardness"
+  ],
+  "excluded_lab_features": [
+    "somatic_cell_count",
+    "milk_conductivity",
+    "milk_ph"
+  ],
+  "training_date": "2026-09-10T11:39:43.970595",
+  "evaluation_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": {
+      "TN": 80,
+      "FP": 0,
+      "FN": 0,
+      "TP": 50
+    },
+    "cv_f1_mean": 0.9923,
+    "cv_f1_std": 0.0063
+  },
+  "risk_thresholds": {
+    "low_max": 0.35,
+    "medium_max": 0.65,
+    "high_min": 0.65
+  },
+  "model_version": "1.0.0"
+}

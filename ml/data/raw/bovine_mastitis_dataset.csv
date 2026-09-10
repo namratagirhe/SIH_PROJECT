@@ -1,0 +1,651 @@
+animal_id,species,age,breed,previous_mastitis,lactation,milk_production,abnormal_milk,clots_flakes,watery_milk,color_change,udder_swelling,udder_heat,udder_pain,udder_redness,udder_hardness,somatic_cell_count,milk_conductivity,milk_ph,mastitis
+BOV-1000,Cow,10,Sahiwal,No,8,decreased,No,Yes,No,No,Yes,Yes,Yes,Yes,No,867044,6.84,6.97,1
+BOV-1001,Buffalo,5,Jafarabadi,Don't Know,4,normal,No,No,No,No,Yes,No,Yes,No,No,56087,5.12,6.45,0
+BOV-1002,Cow,6,Jersey,Yes,4,normal,No,No,No,No,No,No,Don't Know,No,No,155739,5.29,6.61,0
+BOV-1003,Cow,3,Holstein,No,1,normal,No,No,No,No,No,No,No,No,No,57055,5.26,6.53,0
+BOV-1004,Cow,10,Sahiwal,No,8,normal,No,No,No,No,Yes,No,No,No,No,73008,4.84,6.58,0
+BOV-1005,Cow,9,Gir,No,7,normal,No,No,No,No,No,No,No,No,No,174919,5.63,6.62,0
+BOV-1006,Cow,4,Jersey,No,2,normal,No,No,No,No,No,No,No,No,No,82631,5.19,6.65,0
+BOV-1007,Buffalo,10,Murrah,Don't Know,8,decreased,Yes,Yes,No,Yes,Yes,No,No,No,No,758746,7.09,7.08,1
+BOV-1008,Cow,4,Crossbred,No,2,normal,No,No,No,No,No,No,No,No,No,146681,4.62,6.62,0
+BOV-1009,Cow,10,Sahiwal,Yes,8,normal,Yes,No,No,No,No,No,Yes,Yes,Yes,1073262,7.36,7.38,1
+BOV-1010,Cow,3,Jersey,No,2,normal,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,1083359,6.86,7.11,1
+BOV-1011,Buffalo,11,Local,Yes,8,decreased,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,1636622,8.04,7.32,1
+BOV-1012,Buffalo,10,Nili-Ravi,No,8,normal,No,No,No,No,No,No,No,No,No,170760,4.97,6.66,0
+BOV-1013,Cow,9,Gir,No,7,decreased,No,No,No,No,No,No,No,No,No,56139,5.25,6.54,0
+BOV-1014,Cow,10,Gir,No,8,normal,No,No,Yes,No,No,No,No,No,No,134752,5.58,6.59,0
+BOV-1015,Cow,6,Crossbred,No,4,decreased,No,No,No,No,No,No,No,No,No,122728,5.77,6.61,0
+BOV-1016,Cow,3,Crossbred,Don't Know,2,decreased,No,No,Yes,Yes,Yes,Yes,Yes,No,No,2040618,6.85,7.01,1
+BOV-1017,Cow,9,Holstein,No,7,decreased,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,2381886,6.7,7.06,1
+BOV-1018,Cow,7,Holstein,No,5,normal,No,No,No,Yes,No,No,Don't Know,No,No,101286,4.89,6.69,0
+BOV-1019,Cow,9,Crossbred,Yes,8,decreased,No,No,Yes,No,Yes,Yes,No,No,Yes,1430917,8.61,6.98,1
+BOV-1020,Cow,6,Crossbred,Don't Know,5,decreased,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,840988,7.44,7.13,1
+BOV-1021,Cow,11,Sahiwal,Don't Know,8,normal,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,1794912,8.01,7.21,1
+BOV-1022,Cow,3,Gir,No,2,normal,No,No,No,No,No,No,No,No,No,124370,5.63,6.52,0
+BOV-1023,Cow,7,Holstein,Yes,5,normal,No,No,No,No,No,No,No,No,No,133609,5.23,6.51,0
+BOV-1024,Cow,6,Gir,Yes,5,normal,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,967924,7.9,7.11,1
+BOV-1025,Buffalo,6,Jafarabadi,Yes,5,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,1052595,7.14,7.37,1
+BOV-1026,Cow,2,Crossbred,Yes,1,normal,No,No,No,No,Yes,No,No,No,No,185599,4.99,6.61,0
+BOV-1027,Cow,3,Sahiwal,No,2,normal,No,No,No,No,No,No,Don't Know,No,No,173682,5.71,6.7,0
+BOV-1028,Cow,9,Jersey,Don't Know,8,normal,Yes,Yes,Yes,No,Yes,Don't Know,No,No,Yes,563826,8.03,7.19,1
+BOV-1029,Cow,4,Sahiwal,No,3,normal,No,No,No,No,No,No,Don't Know,No,No,92414,4.93,6.49,0
+BOV-1030,Cow,11,Sahiwal,Yes,8,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,2321508,7.42,7.07,1
+BOV-1031,Cow,4,Gir,No,3,normal,No,No,No,No,No,No,Don't Know,No,No,192802,5.72,6.54,0
+BOV-1032,Cow,9,Sahiwal,Yes,8,decreased,Yes,Yes,No,Yes,Yes,Yes,Don't Know,Yes,Yes,2304771,8.25,6.96,1
+BOV-1033,Buffalo,9,Jafarabadi,Yes,7,decreased,Yes,Yes,No,No,Yes,No,Yes,No,Yes,2002802,7.3,6.98,1
+BOV-1034,Buffalo,3,Nili-Ravi,No,1,decreased,No,No,No,No,No,Don't Know,Don't Know,No,No,69877,5.45,6.59,0
+BOV-1035,Buffalo,9,Nili-Ravi,No,8,normal,No,No,No,No,Yes,Don't Know,No,No,No,131284,5.73,6.42,0
+BOV-1036,Cow,2,Holstein,No,1,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,1884395,8.17,7.32,1
+BOV-1037,Cow,7,Gir,Don't Know,5,normal,No,No,No,No,No,No,Yes,No,No,70924,4.65,6.41,0
+BOV-1038,Cow,9,Holstein,No,7,decreased,Yes,No,Yes,Yes,Yes,No,Yes,No,No,774522,6.64,7.13,1
+BOV-1039,Cow,4,Jersey,No,3,normal,No,No,No,No,No,No,No,No,No,52429,5.38,6.42,0
+BOV-1040,Cow,9,Gir,No,7,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,909164,7.15,7.11,1
+BOV-1041,Cow,2,Jersey,No,1,normal,Yes,No,No,No,No,Don't Know,No,No,No,114396,5.48,6.56,0
+BOV-1042,Cow,10,Gir,Yes,8,decreased,Yes,Yes,Yes,No,Yes,Don't Know,Yes,No,No,646244,7.36,7.38,1
+BOV-1043,Buffalo,10,Murrah,No,8,normal,No,No,No,No,No,No,No,No,No,107743,5.08,6.67,0
+BOV-1044,Cow,6,Sahiwal,Yes,5,normal,Yes,No,No,No,No,No,No,No,No,81204,5.65,6.57,0
+BOV-1045,Cow,11,Crossbred,No,8,normal,No,No,No,No,No,No,Don't Know,No,No,115888,5.51,6.7,0
+BOV-1046,Cow,5,Jersey,No,3,normal,No,No,No,No,No,No,No,No,No,131985,5.07,6.64,0
+BOV-1047,Cow,7,Sahiwal,No,6,normal,No,No,No,No,No,Don't Know,No,No,No,88354,4.86,6.48,0
+BOV-1048,Cow,8,Gir,No,6,decreased,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,1880318,7.48,7.14,1
+BOV-1049,Cow,6,Sahiwal,No,4,decreased,No,No,No,No,No,Don't Know,No,No,No,96045,4.84,6.43,0
+BOV-1050,Buffalo,11,Murrah,Yes,8,decreased,No,No,No,No,No,No,No,No,No,150601,5.22,6.46,0
+BOV-1051,Buffalo,10,Local,Yes,8,decreased,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,1648919,7.41,7.28,1
+BOV-1052,Buffalo,4,Murrah,No,3,normal,No,No,No,No,No,No,No,No,No,65310,4.56,6.6,0
+BOV-1053,Buffalo,8,Local,No,6,normal,No,No,No,No,No,Don't Know,No,No,No,142495,5.78,6.63,0
+BOV-1054,Cow,11,Holstein,Yes,8,decreased,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,654070,8.13,7.11,1
+BOV-1055,Buffalo,11,Nili-Ravi,No,8,normal,No,No,No,No,No,No,Don't Know,No,No,189754,4.68,6.45,0
+BOV-1056,Cow,6,Crossbred,No,5,normal,No,No,Yes,Yes,No,Don't Know,No,No,No,144574,4.83,6.6,0
+BOV-1057,Cow,8,Gir,No,7,normal,No,No,No,No,No,No,Don't Know,No,No,172092,5.13,6.63,0
+BOV-1058,Cow,3,Sahiwal,No,1,decreased,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,1570727,8.77,6.88,1
+BOV-1059,Cow,5,Crossbred,No,3,normal,No,Yes,No,No,Yes,No,Yes,Yes,No,1709695,8.07,6.95,1
+BOV-1060,Cow,3,Gir,No,1,normal,No,No,No,No,No,Yes,No,No,No,68309,5.56,6.68,0
+BOV-1061,Cow,8,Gir,Don't Know,6,normal,No,No,No,No,No,No,Yes,No,No,71491,4.62,6.64,0
+BOV-1062,Buffalo,3,Murrah,Yes,1,normal,No,No,No,No,No,No,No,No,No,61750,5.58,6.69,0
+BOV-1063,Cow,2,Jersey,No,1,normal,No,No,No,No,No,No,No,No,No,102877,5.46,6.6,0
+BOV-1064,Cow,10,Jersey,Yes,8,decreased,Yes,Yes,No,Yes,No,Yes,Yes,No,No,1080436,7.83,7.28,1
+BOV-1065,Cow,2,Crossbred,No,1,normal,No,No,No,No,No,No,No,No,No,59670,4.56,6.49,0
+BOV-1066,Cow,9,Jersey,No,8,normal,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,603008,8.95,7.4,1
+BOV-1067,Buffalo,3,Local,Don't Know,1,normal,No,No,No,No,No,No,No,No,No,184943,5.38,6.49,0
+BOV-1068,Cow,9,Jersey,Don't Know,7,normal,No,No,No,No,No,No,Don't Know,No,No,65418,4.65,6.68,0
+BOV-1069,Buffalo,4,Murrah,Yes,3,normal,No,No,Yes,No,No,No,No,No,No,78657,4.73,6.48,0
+BOV-1070,Buffalo,7,Local,Yes,6,normal,No,No,No,No,No,Yes,No,No,No,102728,4.63,6.43,0
+BOV-1071,Cow,4,Jersey,No,3,decreased,Yes,Yes,No,No,Yes,Yes,No,No,Yes,1709520,7.91,6.99,1
+BOV-1072,Cow,8,Sahiwal,No,7,normal,No,No,No,No,No,No,No,No,No,97224,5.01,6.58,0
+BOV-1073,Buffalo,11,Murrah,Yes,8,normal,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,2241443,6.53,6.94,1
+BOV-1074,Cow,10,Crossbred,No,8,normal,No,No,Yes,No,No,No,No,No,No,113966,4.76,6.48,0
+BOV-1075,Cow,3,Holstein,No,1,normal,No,No,No,No,No,Yes,No,No,No,52077,5.12,6.41,0
+BOV-1076,Buffalo,6,Murrah,Don't Know,5,normal,No,No,No,No,No,No,Yes,No,No,85403,5.28,6.52,0
+BOV-1077,Cow,7,Holstein,Yes,5,normal,No,No,No,No,No,Yes,Yes,No,No,194214,4.76,6.48,0
+BOV-1078,Cow,5,Gir,No,3,decreased,No,No,No,No,Yes,Yes,Yes,No,Yes,1375709,9.03,7.39,1
+BOV-1079,Cow,5,Gir,No,3,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,74631,4.57,6.5,0
+BOV-1080,Buffalo,5,Nili-Ravi,No,3,normal,No,No,No,No,No,Yes,No,No,No,121109,4.72,6.42,0
+BOV-1081,Cow,3,Holstein,No,1,normal,No,No,No,No,No,No,No,No,No,189434,5.45,6.55,0
+BOV-1082,Cow,5,Crossbred,No,3,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,589345,6.99,7.37,1
+BOV-1083,Cow,2,Sahiwal,Yes,1,normal,Yes,Yes,No,No,Yes,Yes,Yes,No,No,472711,8.47,7.14,1
+BOV-1084,Cow,7,Sahiwal,No,5,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,949793,8.27,6.92,1
+BOV-1085,Cow,2,Jersey,No,1,normal,No,No,No,No,No,Yes,No,No,No,78384,5.17,6.44,0
+BOV-1086,Cow,11,Crossbred,Yes,8,decreased,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,637183,7.36,6.86,1
+BOV-1087,Cow,7,Gir,No,5,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,1463768,6.83,7.15,1
+BOV-1088,Buffalo,2,Murrah,Yes,1,decreased,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,1238701,7.68,7.16,1
+BOV-1089,Cow,7,Jersey,Yes,5,decreased,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,1689920,7.55,7.32,1
+BOV-1090,Cow,11,Sahiwal,No,8,decreased,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,1958631,7.06,6.88,1
+BOV-1091,Cow,9,Gir,No,7,decreased,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,2319038,6.61,7.11,1
+BOV-1092,Buffalo,3,Jafarabadi,No,2,normal,No,No,No,No,No,No,Don't Know,No,No,76456,5.75,6.53,0
+BOV-1093,Cow,3,Holstein,No,1,normal,No,No,No,No,No,No,Yes,No,No,167751,5.57,6.64,0
+BOV-1094,Buffalo,5,Local,No,3,normal,No,No,No,No,Yes,No,No,No,No,120418,5.21,6.68,0
+BOV-1095,Cow,4,Sahiwal,Yes,2,normal,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,949320,7.33,6.84,1
+BOV-1096,Cow,5,Crossbred,No,3,normal,Yes,No,No,No,No,No,No,No,No,136686,4.61,6.59,0
+BOV-1097,Cow,8,Gir,Don't Know,7,normal,No,No,No,No,No,Don't Know,No,No,No,133785,4.9,6.54,0
+BOV-1098,Cow,2,Holstein,No,1,normal,No,No,No,No,No,No,No,No,No,94413,4.92,6.42,0
+BOV-1099,Cow,7,Crossbred,No,6,normal,No,No,No,No,No,No,No,No,No,58143,4.83,6.56,0
+BOV-1100,Cow,4,Sahiwal,No,3,normal,No,No,No,No,No,No,No,No,No,117857,5.03,6.65,0
+BOV-1101,Cow,11,Gir,No,8,normal,No,No,No,No,No,No,No,No,No,50238,4.99,6.57,0
+BOV-1102,Cow,8,Crossbred,No,6,normal,No,No,No,No,No,No,No,No,No,152306,4.9,6.47,0
+BOV-1103,Cow,11,Crossbred,No,8,decreased,No,No,No,No,No,No,No,No,No,115569,5.46,6.61,0
+BOV-1104,Buffalo,3,Murrah,No,2,normal,No,No,No,No,No,Yes,No,No,No,163462,5.65,6.52,0
+BOV-1105,Cow,3,Gir,Yes,2,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,69868,5.2,6.46,0
+BOV-1106,Cow,5,Gir,Yes,3,decreased,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,1903243,9.18,6.99,1
+BOV-1107,Buffalo,2,Nili-Ravi,No,1,normal,No,No,No,No,No,Yes,Don't Know,No,No,74922,5.12,6.62,0
+BOV-1108,Cow,4,Jersey,Yes,3,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,1692148,7.86,7.33,1
+BOV-1109,Cow,10,Sahiwal,No,8,normal,No,No,No,No,No,No,No,No,No,108217,5.53,6.47,0
+BOV-1110,Cow,8,Holstein,Don't Know,6,normal,No,No,No,No,No,No,No,No,No,123680,5.31,6.54,0
+BOV-1111,Cow,8,Crossbred,No,7,normal,No,No,No,No,No,No,No,No,No,147353,5.7,6.59,0
+BOV-1112,Buffalo,5,Nili-Ravi,No,4,normal,No,No,No,No,No,No,No,No,No,153336,4.75,6.54,0
+BOV-1113,Buffalo,3,Murrah,No,1,normal,No,No,No,No,No,No,No,No,No,79311,5.21,6.46,0
+BOV-1114,Cow,5,Jersey,No,4,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,1915126,7.15,7.07,1
+BOV-1115,Buffalo,7,Local,Yes,5,normal,No,No,No,No,No,No,Don't Know,No,No,133949,4.57,6.49,0
+BOV-1116,Buffalo,4,Local,No,2,normal,No,No,No,No,No,No,Don't Know,No,No,93388,5.06,6.49,0
+BOV-1117,Cow,2,Gir,No,1,normal,No,No,No,No,No,No,Yes,No,No,52903,4.58,6.52,0
+BOV-1118,Buffalo,9,Murrah,No,7,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,1229987,6.79,7.12,1
+BOV-1119,Cow,6,Holstein,No,4,normal,No,No,No,No,No,No,No,No,No,53202,4.97,6.5,0
+BOV-1120,Buffalo,6,Jafarabadi,No,4,normal,No,No,No,No,No,No,No,No,No,122101,4.73,6.43,0
+BOV-1121,Buffalo,5,Jafarabadi,No,4,normal,No,No,No,No,No,No,No,No,No,170012,5.46,6.64,0
+BOV-1122,Cow,7,Holstein,No,6,decreased,No,No,No,No,No,No,No,No,No,77966,4.62,6.56,0
+BOV-1123,Cow,4,Holstein,Yes,2,normal,No,No,No,No,No,No,No,No,No,67605,5.44,6.46,0
+BOV-1124,Cow,10,Holstein,No,8,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,2037559,7.54,7.1,1
+BOV-1125,Cow,6,Holstein,Yes,4,normal,No,No,No,No,No,No,No,No,No,173570,4.55,6.41,0
+BOV-1126,Buffalo,4,Jafarabadi,Yes,3,normal,No,No,No,No,No,No,No,No,No,172621,4.65,6.48,0
+BOV-1127,Buffalo,2,Jafarabadi,Yes,1,normal,No,No,No,No,No,No,No,No,No,64581,5.01,6.59,0
+BOV-1128,Cow,11,Jersey,No,8,normal,No,No,No,No,No,No,No,No,No,91267,5.17,6.65,0
+BOV-1129,Cow,7,Crossbred,No,5,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,787428,6.67,6.99,1
+BOV-1130,Cow,3,Gir,No,1,normal,No,No,No,No,No,No,Don't Know,No,No,100149,4.55,6.62,0
+BOV-1131,Cow,4,Gir,No,3,normal,No,No,No,No,No,No,No,No,No,140694,4.7,6.51,0
+BOV-1132,Cow,2,Gir,No,1,normal,No,No,No,No,No,No,No,No,No,171598,5.55,6.5,0
+BOV-1133,Cow,10,Gir,Yes,8,decreased,No,No,No,No,No,No,No,No,No,120777,5.56,6.43,0
+BOV-1134,Buffalo,9,Local,No,7,decreased,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,946627,7.05,7.37,1
+BOV-1135,Cow,3,Jersey,No,1,normal,Yes,No,No,No,No,No,No,No,No,135993,5.14,6.44,0
+BOV-1136,Cow,9,Sahiwal,No,8,normal,No,No,No,No,No,Don't Know,No,No,No,52415,4.94,6.64,0
+BOV-1137,Cow,10,Crossbred,No,8,decreased,No,No,No,No,No,No,No,No,No,117697,4.97,6.56,0
+BOV-1138,Cow,2,Holstein,Yes,1,decreased,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,512352,8.46,7.32,1
+BOV-1139,Buffalo,6,Local,No,5,normal,No,No,No,No,No,No,No,No,No,153730,5.77,6.46,0
+BOV-1140,Buffalo,9,Nili-Ravi,No,8,decreased,No,No,No,Yes,No,Don't Know,No,No,No,125624,4.66,6.69,0
+BOV-1141,Cow,3,Gir,No,2,decreased,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,679465,8.15,7.14,1
+BOV-1142,Cow,5,Sahiwal,Yes,3,normal,No,No,No,No,No,No,No,No,No,179113,4.84,6.54,0
+BOV-1143,Cow,8,Crossbred,No,6,normal,No,No,No,No,No,No,No,No,No,66727,5.63,6.54,0
+BOV-1144,Cow,4,Holstein,No,3,normal,No,No,No,No,No,No,No,No,No,53485,5.19,6.61,0
+BOV-1145,Cow,6,Holstein,Yes,4,decreased,Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,2182275,6.66,6.96,1
+BOV-1146,Cow,9,Crossbred,No,7,decreased,Yes,Yes,No,Yes,No,Don't Know,Don't Know,Yes,Yes,1138479,7.89,7.28,1
+BOV-1147,Cow,11,Crossbred,No,8,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,613190,8.41,7.19,1
+BOV-1148,Cow,4,Gir,No,2,normal,No,No,No,No,No,No,No,No,No,129800,5.17,6.61,0
+BOV-1149,Cow,5,Holstein,No,4,normal,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,734886,8.52,6.83,1
+BOV-1150,Buffalo,10,Nili-Ravi,No,8,normal,No,Yes,No,No,No,No,No,Yes,No,105229,5.14,6.4,0
+BOV-1151,Cow,8,Sahiwal,Don't Know,6,decreased,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,693993,6.69,7.09,1
+BOV-1152,Cow,2,Jersey,No,1,normal,No,No,No,No,No,No,Yes,No,No,175602,5.63,6.53,0
+BOV-1153,Cow,5,Jersey,Yes,4,normal,No,No,No,No,No,No,Yes,No,No,83698,5.33,6.7,0
+BOV-1154,Buffalo,5,Murrah,No,4,normal,No,No,No,No,No,No,No,No,No,65140,5.24,6.56,0
+BOV-1155,Cow,10,Gir,No,8,normal,No,No,No,Yes,No,No,No,No,No,53926,5.08,6.49,0
+BOV-1156,Cow,7,Jersey,Don't Know,6,normal,No,No,No,No,No,No,No,No,No,180462,5.32,6.53,0
+BOV-1157,Buffalo,10,Murrah,No,8,decreased,No,No,No,No,No,Don't Know,No,No,No,112641,5.8,6.47,0
+BOV-1158,Cow,7,Crossbred,Yes,6,decreased,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,1097273,8.18,6.93,1
+BOV-1159,Cow,7,Sahiwal,No,6,normal,No,No,No,No,No,No,No,No,No,113329,5.1,6.64,0
+BOV-1160,Cow,6,Crossbred,No,4,normal,No,No,No,No,No,Don't Know,No,No,No,128182,4.83,6.63,0
+BOV-1161,Cow,6,Sahiwal,Don't Know,4,normal,No,No,No,No,No,No,No,No,No,107704,5.71,6.5,0
+BOV-1162,Cow,3,Crossbred,Don't Know,1,normal,No,No,No,No,No,Don't Know,No,No,Yes,70255,5.43,6.69,0
+BOV-1163,Cow,9,Crossbred,No,8,normal,No,No,No,No,No,No,No,No,No,86867,5.32,6.41,0
+BOV-1164,Cow,9,Crossbred,Yes,8,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,No,838359,7.58,7.37,1
+BOV-1165,Buffalo,2,Jafarabadi,No,1,decreased,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,1353515,7.2,7.3,1
+BOV-1166,Cow,9,Sahiwal,Yes,7,normal,No,No,No,No,No,No,Don't Know,No,No,97642,5.28,6.5,0
+BOV-1167,Cow,6,Sahiwal,Yes,4,normal,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,2405570,7.07,7.27,1
+BOV-1168,Cow,3,Crossbred,No,2,normal,No,No,No,No,Yes,No,No,No,No,179786,5.25,6.51,0
+BOV-1169,Cow,3,Jersey,Yes,1,normal,No,No,No,No,Yes,No,No,No,No,177418,4.76,6.68,0
+BOV-1170,Cow,7,Gir,No,5,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,1138148,8.05,7.11,1
+BOV-1171,Cow,10,Gir,Don't Know,8,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,83262,4.78,6.42,0
+BOV-1172,Cow,2,Gir,No,1,decreased,No,No,No,No,No,No,Don't Know,No,No,82810,4.67,6.67,0
+BOV-1173,Cow,7,Sahiwal,No,6,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,188160,4.81,6.59,0
+BOV-1174,Cow,10,Sahiwal,Don't Know,8,normal,No,No,Yes,No,No,No,No,No,No,180231,5.72,6.69,0
+BOV-1175,Cow,9,Jersey,Yes,8,normal,Yes,Yes,Yes,No,Yes,Yes,Don't Know,Yes,Yes,935435,6.73,7.26,1
+BOV-1176,Cow,7,Gir,No,5,decreased,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,639683,7.58,7.05,1
+BOV-1177,Cow,4,Gir,Don't Know,2,normal,No,No,No,No,Yes,No,No,No,No,120054,4.58,6.58,0
+BOV-1178,Buffalo,9,Murrah,Don't Know,8,normal,No,No,No,No,No,Don't Know,No,No,No,179198,5.56,6.61,0
+BOV-1179,Cow,10,Sahiwal,No,8,decreased,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,1725060,8.88,7.38,1
+BOV-1180,Cow,2,Gir,No,1,normal,No,No,No,No,No,No,No,No,No,158230,4.69,6.66,0
+BOV-1181,Cow,10,Jersey,No,8,decreased,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,509798,7.96,6.83,1
+BOV-1182,Buffalo,7,Local,No,5,decreased,Yes,No,No,No,Yes,Yes,Yes,No,No,451532,8.1,7.23,1
+BOV-1183,Buffalo,7,Nili-Ravi,No,6,normal,No,No,No,No,No,No,No,No,No,184840,5.1,6.45,0
+BOV-1184,Cow,5,Jersey,No,3,normal,No,No,No,No,No,No,Yes,No,No,141511,5.43,6.53,0
+BOV-1185,Cow,2,Gir,Yes,1,decreased,No,No,Yes,No,No,Yes,Yes,Yes,Yes,500573,7.6,6.93,1
+BOV-1186,Buffalo,11,Local,Yes,8,decreased,No,No,No,No,Yes,Yes,No,Yes,No,1063888,7.23,7.4,1
+BOV-1187,Cow,9,Jersey,Yes,7,normal,Yes,No,No,No,Yes,Yes,Yes,No,Yes,724751,6.81,7.31,1
+BOV-1188,Cow,3,Crossbred,No,2,decreased,No,No,No,No,No,No,No,No,No,71438,5.72,6.45,0
+BOV-1189,Cow,2,Jersey,No,1,normal,No,No,No,No,No,No,No,Yes,No,136906,4.94,6.69,0
+BOV-1190,Cow,3,Holstein,Don't Know,1,normal,No,No,No,No,No,No,No,No,No,138127,4.61,6.59,0
+BOV-1191,Buffalo,2,Murrah,No,1,normal,No,No,No,No,No,No,No,No,No,168177,4.84,6.49,0
+BOV-1192,Buffalo,2,Jafarabadi,Yes,1,decreased,No,No,No,No,No,Don't Know,No,No,No,64012,4.86,6.5,0
+BOV-1193,Cow,10,Sahiwal,No,8,normal,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,1641708,6.71,6.92,1
+BOV-1194,Cow,2,Gir,No,1,normal,No,No,No,No,No,No,Don't Know,No,No,185508,5.44,6.68,0
+BOV-1195,Cow,5,Sahiwal,No,3,normal,No,No,No,No,No,No,No,No,No,177209,4.88,6.42,0
+BOV-1196,Cow,11,Sahiwal,No,8,normal,No,No,No,No,No,No,No,No,No,91483,5.44,6.68,0
+BOV-1197,Buffalo,7,Local,No,5,normal,No,No,No,No,No,No,No,No,No,83983,4.66,6.44,0
+BOV-1198,Buffalo,8,Local,No,7,normal,No,No,No,No,No,No,Yes,No,No,79301,4.64,6.52,0
+BOV-1199,Buffalo,3,Local,No,2,normal,No,No,No,No,No,No,Don't Know,No,No,142560,5.41,6.43,0
+BOV-1200,Cow,7,Crossbred,Yes,6,normal,Yes,Yes,No,No,Yes,Don't Know,Yes,Yes,No,808512,8.32,6.9,1
+BOV-1201,Cow,8,Crossbred,No,6,normal,No,No,No,No,No,No,Don't Know,No,No,58942,5.09,6.46,0
+BOV-1202,Cow,11,Jersey,Yes,8,normal,No,No,No,No,No,No,Yes,No,No,98090,5.44,6.55,0
+BOV-1203,Buffalo,11,Murrah,No,8,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,857973,9.2,6.8,1
+BOV-1204,Cow,3,Sahiwal,Yes,2,normal,No,No,No,No,No,Yes,No,No,No,184366,5.13,6.49,0
+BOV-1205,Cow,3,Jersey,No,1,normal,No,No,No,No,No,No,No,Yes,No,102433,5.03,6.64,0
+BOV-1206,Cow,11,Holstein,Yes,8,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,1236733,9.12,6.9,1
+BOV-1207,Cow,8,Gir,No,7,normal,No,No,No,No,No,No,Don't Know,No,Yes,63256,5.22,6.67,0
+BOV-1208,Cow,2,Crossbred,Don't Know,1,decreased,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,840680,7.75,7.34,1
+BOV-1209,Cow,9,Holstein,Yes,7,decreased,No,Yes,No,No,Yes,Yes,Yes,No,No,2038917,8.18,7.16,1
+BOV-1210,Cow,4,Gir,Yes,2,normal,No,No,No,No,No,Don't Know,No,No,No,157966,5.75,6.62,0
+BOV-1211,Cow,7,Holstein,No,6,normal,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,785413,8.03,7.1,1
+BOV-1212,Cow,10,Crossbred,No,8,decreased,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,1601993,7.35,6.85,1
+BOV-1213,Cow,7,Crossbred,Yes,5,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,936846,9.14,7.03,1
+BOV-1214,Cow,10,Jersey,No,8,normal,No,No,No,No,No,No,No,No,No,169661,5.63,6.52,0
+BOV-1215,Cow,8,Sahiwal,Yes,6,decreased,Yes,No,Yes,Yes,Yes,No,Yes,No,No,1087949,7.06,7.31,1
+BOV-1216,Cow,10,Holstein,No,8,normal,No,No,No,No,No,Don't Know,No,No,No,148232,5.18,6.62,0
+BOV-1217,Cow,3,Holstein,No,2,decreased,No,Yes,Yes,Yes,Yes,Yes,No,No,No,995521,8.75,7.06,1
+BOV-1218,Cow,9,Gir,No,8,normal,No,No,No,No,No,No,No,No,No,134544,5.75,6.6,0
+BOV-1219,Buffalo,9,Local,Don't Know,8,normal,Yes,No,No,No,No,Don't Know,No,No,No,156611,5.54,6.48,0
+BOV-1220,Cow,3,Crossbred,Yes,2,normal,No,No,No,No,No,No,Don't Know,No,No,121167,4.6,6.59,0
+BOV-1221,Cow,5,Holstein,No,4,normal,No,No,No,No,No,No,Don't Know,No,No,112493,4.87,6.58,0
+BOV-1222,Cow,8,Crossbred,Yes,6,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,1866767,8.88,7.37,1
+BOV-1223,Cow,5,Holstein,No,3,normal,No,No,No,No,No,No,No,No,No,159296,5.31,6.56,0
+BOV-1224,Cow,5,Jersey,No,4,decreased,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,785535,7.25,6.84,1
+BOV-1225,Cow,7,Sahiwal,No,6,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,2465943,8.77,6.82,1
+BOV-1226,Buffalo,11,Murrah,Yes,8,decreased,Yes,Yes,Yes,Yes,No,Yes,Don't Know,Yes,No,1742639,8.52,6.93,1
+BOV-1227,Cow,7,Crossbred,Yes,5,decreased,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,2209657,7.13,6.87,1
+BOV-1228,Buffalo,11,Nili-Ravi,No,8,decreased,Yes,No,No,No,Yes,Yes,Yes,No,Yes,1139607,7.9,7.39,1
+BOV-1229,Cow,4,Holstein,No,3,normal,No,No,No,No,No,No,Don't Know,No,No,50232,4.87,6.66,0
+BOV-1230,Buffalo,10,Jafarabadi,Yes,8,normal,No,No,No,No,No,No,No,No,No,74566,5.33,6.69,0
+BOV-1231,Cow,11,Sahiwal,No,8,normal,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,1923989,7.27,6.95,1
+BOV-1232,Cow,3,Holstein,Yes,2,normal,No,No,No,No,No,Don't Know,No,No,No,186947,4.78,6.56,0
+BOV-1233,Cow,7,Jersey,No,6,normal,No,No,No,No,No,No,No,No,No,135574,5.05,6.46,0
+BOV-1234,Cow,8,Gir,No,7,normal,No,No,No,No,No,Don't Know,No,No,No,129652,5.71,6.68,0
+BOV-1235,Cow,10,Jersey,No,8,decreased,No,No,No,No,No,No,Don't Know,No,No,155036,4.75,6.67,0
+BOV-1236,Cow,4,Jersey,Yes,3,normal,No,No,No,No,No,Don't Know,No,No,No,167211,5.0,6.64,0
+BOV-1237,Cow,11,Gir,No,8,normal,No,No,No,No,No,No,Yes,No,No,138083,5.18,6.66,0
+BOV-1238,Cow,4,Jersey,Yes,3,decreased,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,875970,8.66,7.28,1
+BOV-1239,Cow,8,Gir,Don't Know,6,normal,No,No,No,No,No,No,Don't Know,Yes,No,108928,5.61,6.64,0
+BOV-1240,Buffalo,5,Murrah,Yes,3,normal,No,No,No,No,No,Don't Know,Yes,No,No,85327,5.11,6.58,0
+BOV-1241,Buffalo,9,Local,No,8,normal,No,No,Yes,No,Yes,Yes,Yes,No,Yes,458417,6.53,7.05,1
+BOV-1242,Buffalo,8,Jafarabadi,Don't Know,7,normal,No,No,No,No,No,No,No,No,No,177919,5.06,6.62,0
+BOV-1243,Cow,6,Gir,No,4,normal,Yes,Yes,Yes,No,Yes,Don't Know,Yes,No,Yes,579535,8.12,7.16,1
+BOV-1244,Cow,8,Sahiwal,No,6,decreased,No,No,No,No,No,No,No,No,No,166982,4.7,6.4,0
+BOV-1245,Buffalo,4,Jafarabadi,No,2,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,2216854,8.02,7.05,1
+BOV-1246,Cow,3,Gir,Don't Know,1,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,102958,5.2,6.64,0
+BOV-1247,Buffalo,7,Nili-Ravi,No,5,normal,No,No,No,No,No,Yes,No,No,No,127643,5.72,6.58,0
+BOV-1248,Buffalo,3,Local,No,1,normal,No,No,No,No,No,Yes,Don't Know,No,No,173676,5.0,6.5,0
+BOV-1249,Buffalo,4,Murrah,No,2,normal,No,No,No,No,No,No,No,No,No,171430,4.9,6.55,0
+BOV-1250,Cow,7,Sahiwal,No,5,decreased,No,Yes,Yes,No,Yes,Yes,Yes,No,No,1739751,7.5,6.94,1
+BOV-1251,Cow,6,Crossbred,No,4,normal,No,No,No,No,No,Don't Know,No,No,No,97647,4.87,6.54,0
+BOV-1252,Buffalo,9,Local,No,8,decreased,Yes,No,Yes,Yes,Yes,Yes,Don't Know,No,Yes,2176066,7.8,7.2,1
+BOV-1253,Cow,10,Holstein,Yes,8,decreased,Yes,No,No,No,Yes,Yes,No,Yes,Yes,2210625,8.2,7.26,1
+BOV-1254,Cow,4,Holstein,Yes,3,normal,No,No,No,No,No,Don't Know,No,No,No,147487,5.19,6.43,0
+BOV-1255,Cow,11,Crossbred,Yes,8,normal,No,No,No,No,No,No,No,No,No,124180,4.71,6.42,0
+BOV-1256,Buffalo,4,Jafarabadi,No,3,normal,Yes,No,No,No,No,No,Yes,No,No,177924,4.69,6.61,0
+BOV-1257,Cow,4,Gir,Yes,2,normal,No,No,No,No,No,No,No,No,No,96261,5.76,6.68,0
+BOV-1258,Cow,7,Jersey,No,5,normal,No,No,No,No,No,Don't Know,No,No,No,74283,4.99,6.51,0
+BOV-1259,Cow,2,Sahiwal,No,1,decreased,No,No,No,No,No,No,Yes,No,No,173919,5.54,6.5,0
+BOV-1260,Cow,8,Jersey,No,6,normal,No,No,No,No,No,No,No,No,No,106141,4.95,6.65,0
+BOV-1261,Buffalo,2,Murrah,Yes,1,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,600276,8.91,6.94,1
+BOV-1262,Cow,6,Holstein,Yes,5,decreased,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,2108025,7.2,7.18,1
+BOV-1263,Cow,11,Holstein,No,8,decreased,No,No,No,Yes,No,Yes,Yes,No,Yes,2362181,6.71,7.21,1
+BOV-1264,Buffalo,9,Local,No,7,normal,No,No,No,No,No,No,No,No,No,108576,5.1,6.4,0
+BOV-1265,Cow,5,Holstein,Yes,4,decreased,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,2444571,7.1,7.28,1
+BOV-1266,Cow,6,Holstein,No,4,decreased,No,No,No,Yes,No,No,Don't Know,No,No,91035,4.55,6.7,0
+BOV-1267,Cow,5,Sahiwal,No,4,normal,No,No,No,No,No,No,No,No,No,194443,4.75,6.49,0
+BOV-1268,Cow,5,Sahiwal,No,4,decreased,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,1087625,7.38,6.81,1
+BOV-1269,Cow,9,Crossbred,No,8,normal,No,No,No,No,No,No,No,No,No,182180,5.22,6.56,0
+BOV-1270,Buffalo,3,Local,Don't Know,1,normal,Yes,No,No,No,No,No,No,No,No,140784,5.66,6.55,0
+BOV-1271,Buffalo,2,Murrah,No,1,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,1039822,8.49,6.84,1
+BOV-1272,Buffalo,4,Jafarabadi,No,2,normal,No,No,No,No,No,No,No,No,No,101676,4.63,6.69,0
+BOV-1273,Buffalo,10,Murrah,No,8,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,810356,6.89,6.95,1
+BOV-1274,Cow,5,Crossbred,No,4,normal,No,No,No,No,No,No,No,No,No,176873,4.61,6.67,0
+BOV-1275,Cow,11,Gir,No,8,normal,No,No,No,No,No,No,No,No,No,65575,4.63,6.4,0
+BOV-1276,Buffalo,6,Jafarabadi,No,4,normal,No,No,No,No,No,No,No,No,No,160873,4.87,6.67,0
+BOV-1277,Cow,3,Gir,No,1,normal,No,No,No,No,No,Don't Know,No,No,No,119615,5.2,6.45,0
+BOV-1278,Cow,5,Crossbred,No,3,normal,No,No,No,No,No,No,No,No,No,168465,5.03,6.5,0
+BOV-1279,Buffalo,3,Murrah,No,1,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,112579,5.49,6.7,0
+BOV-1280,Buffalo,3,Murrah,No,1,decreased,Yes,Yes,No,No,Yes,No,No,Yes,No,1572183,6.67,7.19,1
+BOV-1281,Cow,5,Crossbred,Yes,4,decreased,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,597560,7.19,7.23,1
+BOV-1282,Cow,7,Gir,No,5,normal,No,No,No,No,No,Yes,No,No,No,96506,5.63,6.47,0
+BOV-1283,Cow,8,Jersey,No,7,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,836189,6.65,6.85,1
+BOV-1284,Cow,11,Holstein,No,8,normal,No,No,No,No,No,No,No,No,No,139837,5.38,6.63,0
+BOV-1285,Cow,4,Gir,Yes,2,normal,No,Yes,No,No,No,Don't Know,No,No,No,144941,5.01,6.46,0
+BOV-1286,Cow,4,Jersey,No,2,normal,No,No,No,No,No,No,No,No,No,102601,4.83,6.61,0
+BOV-1287,Cow,11,Jersey,Yes,8,decreased,Yes,No,No,No,Yes,Yes,Don't Know,Yes,No,614183,6.99,7.15,1
+BOV-1288,Cow,7,Sahiwal,Don't Know,5,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1484070,8.08,7.11,1
+BOV-1289,Cow,4,Holstein,Yes,2,normal,No,No,No,No,No,No,No,No,No,66846,5.3,6.53,0
+BOV-1290,Cow,3,Jersey,No,2,decreased,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,1334903,8.71,7.31,1
+BOV-1291,Cow,9,Gir,Yes,8,decreased,No,Yes,Yes,No,Yes,Yes,Yes,No,No,2176861,8.55,6.9,1
+BOV-1292,Buffalo,6,Jafarabadi,Don't Know,5,normal,Yes,No,Yes,No,Yes,Yes,Yes,No,No,1106998,9.19,7.31,1
+BOV-1293,Cow,2,Sahiwal,No,1,normal,Yes,No,No,No,No,No,No,No,Yes,134472,5.41,6.66,0
+BOV-1294,Cow,4,Holstein,Yes,3,decreased,No,Yes,No,No,No,No,No,No,No,178145,5.71,6.66,0
+BOV-1295,Cow,11,Crossbred,No,8,decreased,Yes,Yes,Yes,No,Yes,No,Yes,No,No,1016289,8.64,6.94,1
+BOV-1296,Buffalo,9,Jafarabadi,Yes,8,decreased,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,1576000,8.52,7.27,1
+BOV-1297,Cow,5,Gir,Yes,4,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,1008093,7.54,7.3,1
+BOV-1298,Cow,8,Jersey,Don't Know,7,decreased,No,No,No,No,No,No,No,No,No,189393,5.1,6.47,0
+BOV-1299,Cow,11,Jersey,No,8,normal,No,No,No,No,No,No,No,No,No,169122,4.54,6.59,0
+BOV-1300,Cow,3,Gir,No,1,normal,No,No,No,No,No,Don't Know,No,No,No,109754,4.79,6.68,0
+BOV-1301,Cow,8,Jersey,No,7,normal,No,No,No,No,No,No,No,No,No,114431,5.73,6.41,0
+BOV-1302,Cow,6,Sahiwal,No,5,normal,No,No,No,No,No,No,No,No,No,171891,5.6,6.63,0
+BOV-1303,Cow,6,Holstein,Yes,5,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,77476,5.38,6.43,0
+BOV-1304,Cow,7,Sahiwal,Yes,5,normal,No,No,No,No,No,No,Yes,No,No,171491,5.65,6.68,0
+BOV-1305,Buffalo,10,Local,No,8,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,695770,7.81,7.21,1
+BOV-1306,Cow,7,Jersey,Don't Know,5,normal,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,2192371,8.46,7.31,1
+BOV-1307,Cow,9,Crossbred,No,8,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,2447325,9.16,7.11,1
+BOV-1308,Buffalo,8,Local,No,7,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,1008185,6.96,7.17,1
+BOV-1309,Cow,10,Holstein,No,8,normal,No,No,No,No,No,No,No,No,No,64497,4.54,6.57,0
+BOV-1310,Cow,5,Holstein,Don't Know,4,normal,No,No,Yes,No,Yes,No,No,No,No,70964,5.4,6.44,0
+BOV-1311,Cow,3,Gir,No,2,decreased,Yes,Yes,Yes,Yes,Yes,Don't Know,Yes,No,Yes,2103316,6.99,7.38,1
+BOV-1312,Cow,8,Gir,No,7,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,104721,5.08,6.41,0
+BOV-1313,Buffalo,7,Jafarabadi,No,5,decreased,No,No,No,No,No,No,No,No,No,52107,4.61,6.57,0
+BOV-1314,Buffalo,2,Murrah,Yes,1,normal,No,No,Yes,No,Yes,Yes,Yes,Yes,No,1062023,8.99,6.94,1
+BOV-1315,Cow,10,Holstein,Yes,8,decreased,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,1269176,8.8,7.1,1
+BOV-1316,Cow,10,Crossbred,No,8,decreased,Yes,Yes,No,No,No,Yes,Yes,No,Yes,832485,7.23,7.28,1
+BOV-1317,Cow,3,Gir,Don't Know,2,normal,No,No,No,No,No,No,No,No,No,116627,4.97,6.58,0
+BOV-1318,Cow,4,Gir,Yes,2,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,No,827650,7.68,7.04,1
+BOV-1319,Cow,6,Holstein,No,5,decreased,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,934964,8.47,6.88,1
+BOV-1320,Cow,6,Sahiwal,No,4,normal,No,No,No,No,No,No,No,No,No,132793,5.03,6.6,0
+BOV-1321,Cow,2,Jersey,No,1,normal,No,No,Yes,No,No,Don't Know,No,No,No,162590,5.47,6.5,0
+BOV-1322,Cow,9,Gir,No,8,normal,No,Yes,No,No,No,No,No,No,No,156121,5.0,6.68,0
+BOV-1323,Cow,9,Gir,No,7,normal,No,No,No,No,No,No,No,No,No,97060,5.52,6.63,0
+BOV-1324,Buffalo,5,Local,No,3,normal,Yes,No,No,No,No,No,No,No,No,161502,5.08,6.54,0
+BOV-1325,Cow,8,Sahiwal,No,7,normal,No,No,No,No,No,No,No,No,No,155586,4.92,6.69,0
+BOV-1326,Cow,11,Sahiwal,No,8,decreased,No,No,No,No,No,Yes,No,No,No,181135,5.76,6.7,0
+BOV-1327,Cow,4,Crossbred,No,3,normal,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,2014780,8.08,6.96,1
+BOV-1328,Cow,7,Crossbred,No,6,normal,No,No,Yes,No,No,No,No,Yes,No,182654,4.96,6.52,0
+BOV-1329,Cow,11,Jersey,Yes,8,decreased,No,No,No,No,No,No,No,No,No,69862,5.39,6.67,0
+BOV-1330,Cow,11,Jersey,No,8,normal,No,No,No,No,No,No,No,No,No,108673,4.58,6.65,0
+BOV-1331,Buffalo,10,Jafarabadi,No,8,decreased,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,1007605,8.45,6.92,1
+BOV-1332,Cow,2,Holstein,No,1,normal,No,No,No,No,No,Yes,No,No,No,104839,5.53,6.66,0
+BOV-1333,Cow,6,Crossbred,No,5,normal,No,No,No,No,No,No,Don't Know,No,No,89351,5.11,6.61,0
+BOV-1334,Cow,5,Gir,No,3,decreased,Yes,No,No,No,Yes,Yes,Yes,No,Yes,2213150,6.83,7.06,1
+BOV-1335,Cow,9,Crossbred,Yes,8,decreased,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,591807,7.39,6.97,1
+BOV-1336,Buffalo,2,Jafarabadi,No,1,decreased,Yes,Yes,No,No,Yes,No,No,No,Yes,2193272,7.12,6.94,1
+BOV-1337,Cow,10,Sahiwal,Yes,8,normal,No,No,No,No,No,No,No,No,No,105992,5.74,6.67,0
+BOV-1338,Cow,7,Crossbred,No,5,normal,Yes,Yes,No,No,Yes,Don't Know,Yes,Yes,No,1091159,8.73,7.16,1
+BOV-1339,Cow,5,Sahiwal,No,3,normal,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,1516375,8.03,7.14,1
+BOV-1340,Cow,10,Jersey,No,8,normal,No,No,No,No,No,No,No,No,No,152758,4.65,6.49,0
+BOV-1341,Cow,6,Jersey,No,4,normal,No,No,No,No,No,No,No,No,No,132947,5.12,6.55,0
+BOV-1342,Cow,6,Holstein,No,4,decreased,No,Yes,Yes,No,Yes,No,Yes,Yes,Yes,1801668,8.96,7.39,1
+BOV-1343,Cow,6,Crossbred,No,4,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,869663,7.4,7.0,1
+BOV-1344,Cow,2,Sahiwal,No,1,decreased,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,455826,9.01,6.87,1
+BOV-1345,Cow,2,Gir,Yes,1,decreased,Yes,Yes,No,No,No,No,No,No,Yes,667557,8.36,7.39,1
+BOV-1346,Cow,9,Jersey,No,7,normal,No,No,No,No,No,No,No,No,Yes,95425,5.18,6.5,0
+BOV-1347,Cow,9,Jersey,Yes,7,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,1379186,8.35,7.02,1
+BOV-1348,Cow,7,Gir,No,6,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,820358,6.85,7.0,1
+BOV-1349,Cow,5,Sahiwal,Don't Know,4,normal,No,No,No,No,No,No,No,No,No,121739,4.67,6.67,0
+BOV-1350,Cow,3,Sahiwal,Yes,1,normal,No,No,No,No,No,Don't Know,No,No,No,180978,5.37,6.67,0
+BOV-1351,Buffalo,3,Murrah,No,1,normal,No,No,No,No,No,No,No,No,No,124487,4.81,6.44,0
+BOV-1352,Cow,10,Crossbred,No,8,normal,No,No,No,No,No,No,No,No,No,61405,4.72,6.42,0
+BOV-1353,Cow,6,Holstein,No,5,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,677539,6.98,7.06,1
+BOV-1354,Cow,5,Jersey,No,4,decreased,No,No,No,No,No,No,Don't Know,No,Yes,177572,4.56,6.62,0
+BOV-1355,Cow,11,Crossbred,No,8,normal,No,No,No,No,No,No,No,No,No,194957,5.6,6.51,0
+BOV-1356,Cow,2,Sahiwal,No,1,decreased,No,No,No,No,No,Don't Know,No,No,No,117978,4.88,6.48,0
+BOV-1357,Cow,8,Gir,No,6,normal,No,No,No,No,No,No,No,No,No,188655,5.5,6.69,0
+BOV-1358,Buffalo,4,Local,No,3,decreased,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,1180551,8.75,7.31,1
+BOV-1359,Cow,7,Jersey,Don't Know,6,normal,No,Yes,No,No,No,No,No,No,No,158154,4.99,6.54,0
+BOV-1360,Cow,6,Sahiwal,No,4,decreased,No,Yes,No,Yes,Yes,Yes,Don't Know,No,Yes,995803,7.84,7.05,1
+BOV-1361,Cow,6,Holstein,No,4,normal,No,No,No,No,No,Yes,No,No,No,192818,4.9,6.47,0
+BOV-1362,Cow,6,Jersey,Yes,4,normal,No,No,No,No,No,Don't Know,No,No,No,160038,5.19,6.59,0
+BOV-1363,Cow,2,Gir,No,1,normal,No,No,No,No,No,Yes,Don't Know,No,No,148180,5.18,6.63,0
+BOV-1364,Buffalo,2,Nili-Ravi,No,1,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,2365219,6.73,7.28,1
+BOV-1365,Cow,4,Holstein,Yes,3,normal,No,No,No,No,No,Don't Know,No,No,No,146442,5.4,6.64,0
+BOV-1366,Buffalo,11,Nili-Ravi,No,8,decreased,No,No,No,No,No,Don't Know,No,No,No,101689,4.71,6.55,0
+BOV-1367,Buffalo,5,Jafarabadi,No,3,normal,No,No,No,No,No,No,Don't Know,No,No,133660,4.7,6.45,0
+BOV-1368,Cow,6,Holstein,No,5,normal,No,No,No,No,No,No,No,No,No,66750,5.76,6.69,0
+BOV-1369,Cow,3,Holstein,No,1,normal,No,No,No,No,No,No,No,No,No,164846,4.88,6.42,0
+BOV-1370,Cow,9,Jersey,No,8,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,1124043,8.28,6.98,1
+BOV-1371,Cow,3,Crossbred,Yes,1,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,1084848,6.89,7.24,1
+BOV-1372,Cow,10,Holstein,No,8,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,2137700,8.87,7.09,1
+BOV-1373,Cow,3,Holstein,No,2,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,2461318,8.55,7.11,1
+BOV-1374,Cow,10,Gir,Don't Know,8,normal,No,No,No,No,No,No,No,No,No,84812,5.66,6.56,0
+BOV-1375,Cow,8,Sahiwal,No,6,normal,No,No,No,No,No,No,No,No,No,94370,5.71,6.58,0
+BOV-1376,Buffalo,9,Nili-Ravi,No,8,normal,No,No,No,No,No,No,No,No,No,191198,4.51,6.67,0
+BOV-1377,Cow,3,Jersey,No,1,normal,No,Yes,No,No,Yes,No,No,No,No,122457,5.27,6.44,0
+BOV-1378,Buffalo,8,Murrah,No,6,normal,No,No,No,No,No,No,No,No,No,53549,5.53,6.4,0
+BOV-1379,Cow,7,Crossbred,No,5,normal,Yes,No,No,No,No,No,No,No,No,181366,5.62,6.6,0
+BOV-1380,Cow,5,Jersey,No,4,normal,No,No,No,No,No,Don't Know,Yes,No,No,169430,5.39,6.61,0
+BOV-1381,Cow,8,Crossbred,No,7,normal,No,No,No,No,No,No,No,No,No,90843,5.12,6.53,0
+BOV-1382,Cow,5,Gir,No,3,decreased,No,No,No,No,No,Don't Know,No,No,No,152642,5.47,6.46,0
+BOV-1383,Buffalo,3,Nili-Ravi,No,2,normal,No,No,No,No,No,No,No,No,No,135605,4.59,6.41,0
+BOV-1384,Cow,11,Jersey,Yes,8,decreased,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,1021064,8.58,7.01,1
+BOV-1385,Buffalo,8,Local,Yes,6,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,2427476,7.87,7.18,1
+BOV-1386,Cow,9,Crossbred,Yes,7,decreased,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,1993274,7.26,6.93,1
+BOV-1387,Cow,3,Jersey,Yes,1,normal,No,No,No,No,Yes,No,No,No,No,84337,5.32,6.49,0
+BOV-1388,Buffalo,6,Local,No,4,normal,No,No,No,No,No,No,No,Yes,No,146662,4.9,6.49,0
+BOV-1389,Buffalo,2,Murrah,No,1,normal,No,No,No,No,Yes,Don't Know,No,No,No,58888,5.18,6.55,0
+BOV-1390,Buffalo,8,Nili-Ravi,No,6,decreased,No,No,No,No,No,No,No,No,No,154923,5.58,6.46,0
+BOV-1391,Cow,9,Jersey,No,8,decreased,Yes,Yes,No,Yes,Yes,No,Yes,No,No,797605,8.71,7.36,1
+BOV-1392,Cow,7,Holstein,Don't Know,6,normal,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,808032,8.79,6.98,1
+BOV-1393,Buffalo,6,Murrah,No,4,decreased,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,1539546,8.85,7.21,1
+BOV-1394,Cow,7,Holstein,No,5,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Don't Know,No,Yes,1956715,6.8,7.32,1
+BOV-1395,Buffalo,3,Nili-Ravi,No,2,normal,No,No,No,Yes,No,No,No,No,No,79877,4.69,6.64,0
+BOV-1396,Buffalo,2,Nili-Ravi,No,1,decreased,Yes,Yes,No,No,Yes,Yes,No,Yes,No,2473518,8.0,6.97,1
+BOV-1397,Cow,8,Sahiwal,Yes,7,decreased,Yes,No,No,No,Yes,Yes,Yes,Yes,No,843668,8.22,7.19,1
+BOV-1398,Buffalo,8,Jafarabadi,No,6,normal,No,No,No,No,No,No,No,No,No,150607,5.34,6.61,0
+BOV-1399,Buffalo,11,Murrah,Don't Know,8,decreased,Yes,No,No,No,Yes,Yes,Yes,No,Yes,1500794,7.74,7.19,1
+BOV-1400,Cow,11,Jersey,No,8,normal,No,No,No,No,No,No,Yes,No,No,150006,5.61,6.57,0
+BOV-1401,Buffalo,3,Nili-Ravi,Yes,1,normal,No,No,No,No,No,No,Don't Know,No,No,136802,4.88,6.61,0
+BOV-1402,Cow,3,Crossbred,No,1,normal,No,No,No,No,No,No,Don't Know,No,No,131251,4.53,6.56,0
+BOV-1403,Buffalo,2,Jafarabadi,No,1,normal,No,No,No,No,No,No,No,No,No,112691,5.79,6.68,0
+BOV-1404,Cow,11,Holstein,Yes,8,decreased,Yes,No,No,Yes,Yes,No,Yes,No,No,2114216,8.5,7.24,1
+BOV-1405,Buffalo,9,Jafarabadi,No,7,decreased,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,2163962,8.44,7.11,1
+BOV-1406,Cow,9,Gir,No,7,decreased,No,No,No,No,No,No,No,No,No,104938,4.55,6.43,0
+BOV-1407,Cow,2,Jersey,No,1,decreased,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,705709,7.01,7.01,1
+BOV-1408,Buffalo,9,Local,Yes,7,normal,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,1274368,8.24,7.13,1
+BOV-1409,Cow,10,Crossbred,No,8,decreased,Yes,Yes,No,No,No,Yes,Yes,No,No,962497,7.94,7.21,1
+BOV-1410,Cow,5,Holstein,No,3,normal,No,No,No,No,No,No,No,No,No,141775,5.05,6.55,0
+BOV-1411,Buffalo,2,Murrah,No,1,decreased,No,No,No,No,No,No,No,No,No,130754,4.64,6.68,0
+BOV-1412,Buffalo,2,Jafarabadi,Yes,1,normal,No,No,No,No,No,No,Don't Know,No,No,137197,5.21,6.58,0
+BOV-1413,Cow,4,Jersey,No,2,normal,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,1087201,9.16,7.3,1
+BOV-1414,Cow,6,Crossbred,No,5,normal,No,No,No,No,No,Don't Know,No,No,No,176905,5.17,6.52,0
+BOV-1415,Cow,6,Holstein,No,4,normal,No,No,No,No,No,Don't Know,No,No,No,85809,5.53,6.59,0
+BOV-1416,Cow,10,Jersey,No,8,normal,No,No,No,No,No,No,Don't Know,No,No,82411,4.57,6.64,0
+BOV-1417,Cow,11,Crossbred,Yes,8,normal,No,No,No,No,Yes,No,No,No,No,88946,5.19,6.65,0
+BOV-1418,Cow,3,Sahiwal,No,1,normal,No,No,No,No,No,No,No,No,No,97965,4.73,6.63,0
+BOV-1419,Buffalo,3,Nili-Ravi,Yes,1,normal,No,No,No,No,No,No,No,No,No,90290,5.8,6.67,0
+BOV-1420,Buffalo,7,Nili-Ravi,No,5,normal,No,No,No,No,No,No,No,No,No,133179,5.08,6.6,0
+BOV-1421,Buffalo,10,Nili-Ravi,Yes,8,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2019489,7.83,7.33,1
+BOV-1422,Cow,2,Jersey,No,1,normal,No,No,No,No,No,No,No,No,No,139351,5.15,6.7,0
+BOV-1423,Cow,10,Sahiwal,No,8,normal,No,No,No,No,No,No,No,No,No,154704,4.73,6.58,0
+BOV-1424,Cow,10,Gir,No,8,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,1262282,7.6,7.14,1
+BOV-1425,Cow,10,Holstein,Yes,8,decreased,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,1570692,8.42,6.83,1
+BOV-1426,Cow,6,Gir,No,5,decreased,No,No,No,No,No,No,No,No,No,144820,5.7,6.42,0
+BOV-1427,Buffalo,10,Murrah,Yes,8,decreased,Yes,No,No,No,Yes,No,Yes,Yes,Yes,1639078,8.44,6.86,1
+BOV-1428,Cow,5,Sahiwal,No,4,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,1089862,6.53,6.86,1
+BOV-1429,Cow,3,Gir,Don't Know,2,normal,No,No,No,No,No,Yes,No,No,No,70525,5.58,6.4,0
+BOV-1430,Cow,7,Jersey,No,5,decreased,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,2345558,7.46,7.2,1
+BOV-1431,Buffalo,5,Murrah,No,4,normal,No,No,No,No,No,No,Don't Know,No,Yes,137190,5.23,6.44,0
+BOV-1432,Cow,7,Crossbred,No,5,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,2479860,6.7,7.2,1
+BOV-1433,Cow,4,Gir,Yes,2,normal,No,No,No,No,No,No,No,No,No,95790,5.27,6.59,0
+BOV-1434,Cow,7,Gir,No,5,normal,No,No,No,No,No,Yes,Don't Know,No,Yes,112727,5.15,6.59,0
+BOV-1435,Cow,3,Sahiwal,No,1,normal,No,No,No,No,No,Don't Know,No,No,No,192160,5.21,6.69,0
+BOV-1436,Cow,3,Holstein,No,1,normal,Yes,No,No,No,No,No,No,No,No,90032,4.78,6.48,0
+BOV-1437,Buffalo,10,Jafarabadi,Yes,8,decreased,No,No,Yes,Yes,Yes,Don't Know,Yes,No,No,769134,7.11,6.94,1
+BOV-1438,Cow,8,Gir,No,7,decreased,No,No,No,No,No,No,Don't Know,No,No,110376,5.09,6.65,0
+BOV-1439,Cow,4,Jersey,No,2,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,2257531,8.76,7.15,1
+BOV-1440,Cow,2,Crossbred,No,1,normal,No,No,Yes,No,No,No,Don't Know,No,No,101103,5.43,6.45,0
+BOV-1441,Buffalo,9,Local,No,8,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1382781,8.57,7.2,1
+BOV-1442,Cow,7,Holstein,No,5,normal,No,No,No,No,No,Don't Know,No,No,No,83037,5.14,6.51,0
+BOV-1443,Cow,8,Jersey,Yes,6,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,1898055,7.28,6.9,1
+BOV-1444,Buffalo,10,Local,Yes,8,normal,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,2410970,8.78,7.21,1
+BOV-1445,Buffalo,6,Jafarabadi,Don't Know,5,normal,No,No,No,No,No,No,No,No,No,73524,5.04,6.65,0
+BOV-1446,Buffalo,2,Local,Yes,1,normal,No,No,No,No,No,No,No,No,No,89214,5.02,6.66,0
+BOV-1447,Buffalo,11,Jafarabadi,Don't Know,8,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,1781541,7.65,7.05,1
+BOV-1448,Cow,8,Gir,No,6,decreased,No,No,No,No,No,No,Yes,No,No,109837,4.83,6.4,0
+BOV-1449,Cow,6,Sahiwal,Yes,5,normal,No,No,No,No,No,No,No,No,No,123423,5.37,6.67,0
+BOV-1450,Buffalo,4,Jafarabadi,Yes,3,normal,No,No,No,No,No,No,Don't Know,No,Yes,156414,4.6,6.59,0
+BOV-1451,Cow,10,Holstein,Yes,8,normal,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,1388016,7.22,7.31,1
+BOV-1452,Cow,2,Gir,Don't Know,1,normal,No,No,No,No,No,No,No,No,No,145609,4.95,6.6,0
+BOV-1453,Buffalo,2,Murrah,No,1,normal,No,No,No,No,No,No,Don't Know,No,No,186192,4.5,6.62,0
+BOV-1454,Cow,2,Gir,No,1,normal,No,No,No,No,No,No,No,No,No,127342,5.17,6.48,0
+BOV-1455,Cow,4,Jersey,No,3,decreased,No,No,No,No,No,Yes,No,No,No,50164,4.6,6.63,0
+BOV-1456,Cow,7,Holstein,Yes,5,decreased,Yes,Yes,No,No,No,Yes,Yes,Yes,No,2441542,7.76,6.98,1
+BOV-1457,Cow,11,Jersey,No,8,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2249499,8.57,6.81,1
+BOV-1458,Cow,4,Jersey,Yes,2,decreased,Yes,Yes,No,No,Yes,No,No,Yes,Yes,474855,7.17,7.23,1
+BOV-1459,Cow,9,Crossbred,No,8,decreased,No,Yes,Yes,No,Yes,Yes,No,Yes,No,1845237,8.63,7.29,1
+BOV-1460,Cow,11,Holstein,No,8,decreased,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,1138739,6.92,7.04,1
+BOV-1461,Cow,3,Holstein,No,2,normal,No,No,No,No,No,Don't Know,No,No,No,134068,4.72,6.48,0
+BOV-1462,Cow,10,Holstein,No,8,normal,No,No,No,No,No,No,No,No,No,76156,5.22,6.46,0
+BOV-1463,Cow,4,Holstein,No,2,decreased,No,No,No,No,No,Yes,Yes,No,No,1299332,7.78,7.05,1
+BOV-1464,Buffalo,6,Murrah,Don't Know,4,normal,No,No,No,No,No,Don't Know,No,No,No,88274,5.73,6.51,0
+BOV-1465,Cow,11,Crossbred,No,8,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,2041626,7.34,7.14,1
+BOV-1466,Cow,9,Gir,Yes,7,normal,No,No,No,No,No,No,Don't Know,No,No,61440,4.62,6.53,0
+BOV-1467,Buffalo,3,Local,No,2,decreased,No,No,No,No,No,No,No,No,No,164798,5.77,6.64,0
+BOV-1468,Cow,7,Jersey,Yes,6,normal,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,2154776,9.02,7.25,1
+BOV-1469,Buffalo,6,Murrah,Yes,5,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,1696837,7.09,7.09,1
+BOV-1470,Cow,11,Gir,Don't Know,8,normal,No,No,No,No,No,No,No,No,No,149606,5.47,6.45,0
+BOV-1471,Buffalo,10,Jafarabadi,No,8,normal,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,1454282,6.59,7.17,1
+BOV-1472,Cow,6,Jersey,Don't Know,5,normal,No,No,No,No,No,No,Yes,No,No,90467,5.25,6.46,0
+BOV-1473,Buffalo,3,Murrah,No,2,normal,No,No,No,No,No,No,No,No,No,51677,4.89,6.59,0
+BOV-1474,Cow,6,Sahiwal,No,4,normal,No,No,Yes,No,No,No,No,No,No,77220,5.57,6.67,0
+BOV-1475,Buffalo,5,Local,Yes,4,decreased,Yes,Yes,No,No,Yes,Yes,No,No,No,2480267,7.02,6.85,1
+BOV-1476,Cow,8,Gir,Yes,7,normal,No,No,No,No,No,Don't Know,No,No,No,52451,5.3,6.42,0
+BOV-1477,Cow,7,Jersey,No,6,decreased,No,No,No,No,No,No,No,No,No,137994,5.14,6.52,0
+BOV-1478,Buffalo,3,Local,No,1,normal,No,No,No,No,No,No,Don't Know,No,No,146998,5.47,6.67,0
+BOV-1479,Cow,6,Gir,No,5,normal,Yes,No,No,No,Yes,Don't Know,Don't Know,No,Yes,861571,6.79,7.06,1
+BOV-1480,Cow,8,Crossbred,No,6,decreased,No,No,No,No,No,No,No,No,No,179645,5.65,6.66,0
+BOV-1481,Cow,8,Sahiwal,Yes,7,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,718798,7.73,7.29,1
+BOV-1482,Cow,6,Gir,No,5,normal,No,No,No,No,No,No,Don't Know,No,No,111537,5.62,6.56,0
+BOV-1483,Cow,10,Gir,No,8,decreased,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,477516,7.64,6.91,1
+BOV-1484,Cow,5,Holstein,Yes,4,decreased,No,No,No,No,No,No,No,No,No,173411,5.06,6.69,0
+BOV-1485,Buffalo,4,Murrah,No,3,decreased,Yes,No,Yes,No,No,Yes,No,No,No,1479718,6.95,7.22,1
+BOV-1486,Cow,5,Holstein,No,3,normal,No,No,No,No,No,No,No,No,No,135424,5.34,6.54,0
+BOV-1487,Cow,6,Jersey,Yes,4,normal,No,No,No,No,No,No,No,No,No,158758,4.63,6.65,0
+BOV-1488,Buffalo,7,Murrah,No,5,normal,No,No,No,No,No,No,No,No,No,124599,5.43,6.68,0
+BOV-1489,Buffalo,4,Jafarabadi,Don't Know,2,decreased,No,No,No,No,No,No,No,No,No,57042,5.28,6.64,0
+BOV-1490,Cow,3,Holstein,Yes,1,decreased,No,Yes,No,No,No,Yes,Yes,No,Yes,571643,8.28,7.33,1
+BOV-1491,Cow,5,Sahiwal,No,4,normal,No,No,No,No,No,No,No,No,No,153451,4.5,6.41,0
+BOV-1492,Cow,6,Gir,Yes,4,decreased,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,2069841,7.64,7.28,1
+BOV-1493,Cow,5,Crossbred,No,4,normal,No,No,No,No,No,No,No,No,No,55501,4.69,6.68,0
+BOV-1494,Cow,4,Holstein,No,3,normal,No,No,No,No,No,No,No,No,Yes,121351,5.19,6.46,0
+BOV-1495,Cow,9,Crossbred,No,8,normal,No,No,No,No,No,Don't Know,No,No,No,105546,4.93,6.53,0
+BOV-1496,Cow,11,Holstein,No,8,decreased,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,558702,7.16,7.28,1
+BOV-1497,Cow,5,Jersey,No,3,decreased,No,No,No,No,Yes,Don't Know,No,No,No,167354,5.11,6.68,0
+BOV-1498,Buffalo,3,Murrah,No,2,normal,No,No,No,No,No,No,No,No,No,132336,4.55,6.45,0
+BOV-1499,Buffalo,3,Local,No,1,normal,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1549411,7.24,7.09,1
+BOV-1500,Cow,2,Gir,Yes,1,normal,No,No,No,No,No,No,No,No,No,145695,5.45,6.52,0
+BOV-1501,Cow,5,Jersey,No,3,decreased,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,2387326,6.63,6.8,1
+BOV-1502,Cow,11,Holstein,No,8,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1394992,6.56,6.81,1
+BOV-1503,Buffalo,10,Murrah,Don't Know,8,decreased,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,877139,7.75,7.35,1
+BOV-1504,Cow,8,Jersey,Yes,7,decreased,Yes,No,No,No,Yes,Yes,Yes,No,Yes,2163614,8.7,7.12,1
+BOV-1505,Cow,11,Jersey,No,8,decreased,Yes,No,No,No,No,No,No,No,No,59559,5.19,6.42,0
+BOV-1506,Buffalo,8,Local,No,7,normal,Yes,No,No,Yes,Yes,Don't Know,Yes,No,Yes,1110709,8.01,7.32,1
+BOV-1507,Buffalo,8,Jafarabadi,No,6,normal,No,No,No,No,No,No,No,No,No,133222,5.61,6.52,0
+BOV-1508,Buffalo,9,Murrah,No,7,decreased,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,1107433,8.28,7.17,1
+BOV-1509,Cow,2,Jersey,Yes,1,normal,No,No,No,No,No,Don't Know,No,No,No,98505,4.51,6.46,0
+BOV-1510,Cow,11,Crossbred,No,8,normal,No,No,No,No,No,No,No,No,No,89373,5.08,6.6,0
+BOV-1511,Cow,11,Jersey,No,8,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,911147,8.87,7.09,1
+BOV-1512,Buffalo,9,Jafarabadi,Yes,7,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,881795,9.06,7.0,1
+BOV-1513,Buffalo,5,Nili-Ravi,No,4,normal,No,No,No,No,No,No,No,No,No,107595,4.78,6.67,0
+BOV-1514,Cow,5,Crossbred,No,3,normal,No,Yes,No,No,Yes,No,Don't Know,No,No,139507,5.03,6.49,0
+BOV-1515,Cow,5,Holstein,Yes,4,decreased,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,1533506,7.29,7.21,1
+BOV-1516,Cow,7,Gir,Don't Know,6,decreased,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,1013028,8.47,7.3,1
+BOV-1517,Buffalo,8,Local,Don't Know,6,normal,No,No,No,No,No,Don't Know,No,No,No,60664,4.79,6.62,0
+BOV-1518,Buffalo,7,Local,No,5,normal,No,No,No,No,Yes,Don't Know,Don't Know,No,No,172774,4.9,6.7,0
+BOV-1519,Cow,2,Jersey,Yes,1,decreased,No,No,No,No,No,Yes,Don't Know,No,Yes,57222,4.84,6.42,0
+BOV-1520,Cow,9,Gir,No,7,decreased,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No,947283,7.45,7.37,1
+BOV-1521,Cow,11,Crossbred,No,8,normal,No,No,No,No,No,No,No,No,No,130160,4.53,6.58,0
+BOV-1522,Buffalo,8,Nili-Ravi,No,6,decreased,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,1991851,6.71,7.19,1
+BOV-1523,Buffalo,7,Jafarabadi,No,5,decreased,No,No,No,No,No,No,No,No,No,122301,4.56,6.46,0
+BOV-1524,Buffalo,7,Nili-Ravi,No,5,normal,No,No,No,No,No,No,No,No,No,50316,5.66,6.48,0
+BOV-1525,Cow,6,Sahiwal,No,5,decreased,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,1746816,7.13,7.34,1
+BOV-1526,Cow,7,Gir,No,5,normal,No,No,No,No,No,No,Don't Know,No,No,109567,5.18,6.68,0
+BOV-1527,Cow,10,Jersey,No,8,decreased,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,2395170,8.22,6.89,1
+BOV-1528,Cow,11,Gir,Don't Know,8,normal,No,No,No,No,No,No,No,No,No,190539,4.76,6.42,0
+BOV-1529,Buffalo,10,Nili-Ravi,No,8,normal,No,No,No,No,No,Don't Know,No,No,No,64088,4.67,6.6,0
+BOV-1530,Buffalo,11,Jafarabadi,No,8,normal,No,No,No,No,No,No,No,No,No,109632,5.1,6.43,0
+BOV-1531,Buffalo,9,Murrah,No,8,decreased,Yes,No,Yes,Yes,Yes,No,Yes,No,No,1975890,8.5,6.95,1
+BOV-1532,Buffalo,11,Nili-Ravi,No,8,normal,No,No,No,No,No,No,No,No,No,156083,4.83,6.45,0
+BOV-1533,Cow,10,Gir,No,8,decreased,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,2073946,7.84,6.98,1
+BOV-1534,Buffalo,11,Local,No,8,normal,No,No,No,No,No,No,No,No,No,61816,5.34,6.54,0
+BOV-1535,Buffalo,9,Local,No,8,normal,No,Yes,No,No,No,No,No,No,No,134770,5.05,6.69,0
+BOV-1536,Buffalo,9,Murrah,No,8,decreased,No,No,No,Yes,No,No,No,No,No,181352,5.78,6.51,0
+BOV-1537,Cow,2,Jersey,No,1,normal,No,No,No,No,No,No,No,No,No,180071,5.7,6.51,0
+BOV-1538,Cow,11,Gir,Don't Know,8,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,95959,5.42,6.48,0
+BOV-1539,Cow,6,Crossbred,Yes,4,normal,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,593986,8.36,6.9,1
+BOV-1540,Buffalo,5,Jafarabadi,Yes,4,normal,No,No,No,No,No,No,No,No,No,70384,5.63,6.6,0
+BOV-1541,Cow,3,Jersey,No,2,normal,No,No,No,No,No,No,No,No,No,57325,5.37,6.42,0
+BOV-1542,Cow,9,Sahiwal,No,7,normal,Yes,No,No,No,No,Don't Know,Yes,No,No,63654,4.85,6.59,0
+BOV-1543,Cow,4,Holstein,Yes,2,normal,No,No,No,No,No,No,No,No,No,161286,5.47,6.56,0
+BOV-1544,Cow,5,Sahiwal,No,4,normal,No,No,No,No,No,Don't Know,No,No,No,144422,4.79,6.42,0
+BOV-1545,Cow,8,Crossbred,No,7,decreased,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,1973763,7.09,6.84,1
+BOV-1546,Cow,11,Holstein,Yes,8,decreased,Yes,Yes,Yes,Yes,Yes,Don't Know,Yes,No,No,1955660,7.77,6.93,1
+BOV-1547,Cow,10,Crossbred,Don't Know,8,decreased,No,Yes,Yes,Yes,No,Yes,Yes,Yes,No,1103284,7.61,7.18,1
+BOV-1548,Cow,3,Jersey,Yes,1,decreased,No,No,No,No,No,Don't Know,No,No,No,66650,5.74,6.51,0
+BOV-1549,Buffalo,4,Murrah,No,2,decreased,Yes,No,No,No,No,Yes,Yes,No,No,2395400,9.04,7.03,1
+BOV-1550,Cow,5,Crossbred,No,3,decreased,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,752073,6.93,6.81,1
+BOV-1551,Buffalo,11,Nili-Ravi,Don't Know,8,normal,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,2416218,6.69,7.15,1
+BOV-1552,Cow,2,Sahiwal,Yes,1,normal,Yes,No,No,No,No,No,No,No,No,131443,5.27,6.51,0
+BOV-1553,Cow,8,Jersey,No,7,decreased,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1547689,8.98,7.21,1
+BOV-1554,Buffalo,3,Jafarabadi,No,1,normal,No,No,No,No,No,No,No,No,No,168824,5.49,6.7,0
+BOV-1555,Cow,6,Gir,No,5,decreased,No,No,No,No,No,Don't Know,No,No,No,57611,5.06,6.68,0
+BOV-1556,Cow,2,Jersey,No,1,decreased,Yes,Yes,Yes,No,Yes,Yes,Don't Know,No,Yes,1061680,8.28,7.3,1
+BOV-1557,Cow,4,Jersey,No,2,normal,Yes,No,No,No,No,Yes,No,No,No,83085,4.91,6.69,0
+BOV-1558,Buffalo,3,Nili-Ravi,No,2,normal,No,No,No,No,No,Yes,No,No,No,107975,4.54,6.65,0
+BOV-1559,Cow,2,Gir,No,1,normal,No,No,No,No,No,No,No,No,No,85646,5.63,6.53,0
+BOV-1560,Cow,8,Crossbred,No,6,decreased,No,No,No,No,No,No,Don't Know,No,No,138844,4.79,6.67,0
+BOV-1561,Cow,6,Crossbred,No,4,normal,No,No,No,No,No,No,Don't Know,No,No,143544,4.87,6.49,0
+BOV-1562,Cow,2,Jersey,Don't Know,1,normal,No,No,No,No,No,Yes,No,No,No,68944,5.33,6.63,0
+BOV-1563,Cow,7,Gir,Yes,5,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,986954,8.36,7.35,1
+BOV-1564,Cow,6,Gir,Don't Know,4,normal,No,No,No,No,No,No,No,No,No,66736,5.07,6.65,0
+BOV-1565,Cow,4,Sahiwal,Yes,3,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,1106113,6.6,7.02,1
+BOV-1566,Cow,8,Crossbred,Yes,7,decreased,No,No,No,No,No,Don't Know,No,No,No,69608,4.85,6.46,0
+BOV-1567,Cow,11,Holstein,Yes,8,normal,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,1676189,7.68,7.39,1
+BOV-1568,Buffalo,10,Murrah,No,8,normal,No,No,No,No,No,No,No,No,No,111562,5.59,6.42,0
+BOV-1569,Cow,10,Crossbred,No,8,normal,Yes,Yes,No,No,Yes,Don't Know,No,Yes,Yes,1640064,8.11,6.97,1
+BOV-1570,Cow,10,Sahiwal,Yes,8,normal,No,No,No,No,No,No,No,No,No,167184,4.67,6.69,0
+BOV-1571,Buffalo,3,Murrah,Yes,1,decreased,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,1586097,8.4,7.05,1
+BOV-1572,Cow,4,Sahiwal,Don't Know,3,normal,No,No,No,No,No,No,No,No,No,70677,5.22,6.5,0
+BOV-1573,Cow,8,Holstein,No,6,normal,No,No,No,No,No,No,Don't Know,No,No,82331,5.03,6.7,0
+BOV-1574,Buffalo,6,Nili-Ravi,No,5,normal,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,2383630,8.45,7.21,1
+BOV-1575,Buffalo,3,Nili-Ravi,No,1,normal,No,No,No,No,No,No,No,No,No,177553,4.96,6.43,0
+BOV-1576,Cow,4,Holstein,No,3,normal,No,No,No,Yes,No,No,No,No,No,185690,5.02,6.61,0
+BOV-1577,Buffalo,11,Jafarabadi,Yes,8,decreased,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,2055352,7.45,6.93,1
+BOV-1578,Cow,7,Sahiwal,No,5,normal,No,No,No,No,No,Don't Know,No,No,No,67656,5.62,6.57,0
+BOV-1579,Cow,8,Crossbred,No,7,decreased,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,1141655,6.83,6.85,1
+BOV-1580,Cow,10,Holstein,No,8,decreased,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,2303882,6.85,7.37,1
+BOV-1581,Buffalo,2,Nili-Ravi,No,1,normal,No,No,No,No,No,No,No,No,No,126611,5.75,6.5,0
+BOV-1582,Cow,8,Holstein,Yes,6,normal,No,No,No,No,No,No,No,No,No,179233,5.33,6.68,0
+BOV-1583,Cow,9,Gir,No,7,decreased,Yes,No,No,No,Yes,Yes,Yes,No,Yes,1266735,8.39,6.98,1
+BOV-1584,Cow,4,Crossbred,No,2,normal,No,No,No,No,No,No,No,No,No,71037,5.41,6.41,0
+BOV-1585,Cow,5,Jersey,No,3,normal,No,No,No,No,No,No,Don't Know,No,No,148362,4.87,6.48,0
+BOV-1586,Cow,11,Sahiwal,No,8,normal,No,No,No,No,No,No,No,No,No,182500,4.78,6.41,0
+BOV-1587,Cow,7,Jersey,No,5,normal,No,No,No,No,No,No,No,No,No,133914,4.97,6.42,0
+BOV-1588,Cow,11,Crossbred,Yes,8,normal,No,No,No,No,No,Don't Know,No,No,No,175391,5.65,6.41,0
+BOV-1589,Cow,8,Holstein,Yes,7,decreased,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,1668539,6.69,6.95,1
+BOV-1590,Cow,5,Holstein,No,3,normal,Yes,No,No,No,No,Don't Know,No,No,No,160315,4.58,6.41,0
+BOV-1591,Cow,9,Crossbred,No,7,normal,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,2100758,7.24,7.33,1
+BOV-1592,Cow,6,Holstein,Yes,5,normal,No,Yes,No,No,Yes,Don't Know,Yes,No,Yes,2267982,8.43,6.82,1
+BOV-1593,Cow,2,Holstein,No,1,normal,No,No,No,No,No,No,Don't Know,No,No,142716,5.08,6.6,0
+BOV-1594,Buffalo,5,Murrah,Yes,4,decreased,No,No,Yes,No,No,Yes,Yes,No,Yes,537081,6.93,7.03,1
+BOV-1595,Cow,4,Sahiwal,No,2,normal,No,No,No,No,No,No,No,No,No,147179,5.45,6.58,0
+BOV-1596,Cow,10,Sahiwal,Yes,8,decreased,Yes,Yes,No,No,Yes,Yes,Yes,No,No,1634796,7.92,6.9,1
+BOV-1597,Cow,9,Gir,No,7,decreased,Yes,No,Yes,No,Yes,Yes,No,Yes,No,1619438,6.75,7.06,1
+BOV-1598,Cow,2,Jersey,No,1,normal,No,No,No,No,No,No,No,No,No,171668,5.46,6.66,0
+BOV-1599,Cow,7,Crossbred,Yes,6,decreased,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,512665,9.12,7.35,1
+BOV-1600,Cow,10,Crossbred,No,8,normal,No,No,No,No,No,No,No,No,No,152580,5.12,6.58,0
+BOV-1601,Cow,8,Crossbred,No,6,normal,No,No,No,No,No,No,Don't Know,No,No,178534,4.86,6.44,0
+BOV-1602,Cow,5,Gir,No,3,decreased,No,Yes,No,No,No,No,No,No,No,114389,4.58,6.64,0
+BOV-1603,Cow,2,Sahiwal,Yes,1,normal,No,No,No,No,No,No,No,No,No,155922,4.8,6.43,0
+BOV-1604,Cow,3,Gir,No,2,normal,No,No,No,No,No,Don't Know,No,No,No,96126,4.73,6.43,0
+BOV-1605,Cow,6,Crossbred,Yes,5,decreased,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,2031913,7.9,7.22,1
+BOV-1606,Cow,6,Jersey,No,4,normal,No,No,No,No,No,Don't Know,No,No,No,149163,4.53,6.44,0
+BOV-1607,Cow,9,Holstein,No,7,normal,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,2291141,8.64,7.13,1
+BOV-1608,Cow,7,Sahiwal,No,6,normal,No,No,No,No,No,No,No,No,No,167087,5.36,6.45,0
+BOV-1609,Cow,9,Sahiwal,Yes,7,decreased,No,No,No,No,No,Don't Know,Yes,No,No,152616,5.03,6.41,0
+BOV-1610,Cow,3,Gir,Yes,2,normal,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,711064,8.94,7.12,1
+BOV-1611,Buffalo,4,Local,Yes,2,normal,No,No,No,No,No,No,No,No,No,152287,5.38,6.64,0
+BOV-1612,Cow,7,Sahiwal,No,5,normal,No,No,Yes,No,No,No,Yes,No,No,57079,4.88,6.64,0
+BOV-1613,Cow,11,Crossbred,No,8,normal,Yes,Yes,No,No,Yes,Yes,Yes,No,No,1841502,7.13,6.86,1
+BOV-1614,Buffalo,4,Jafarabadi,Yes,3,decreased,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,885450,7.06,6.88,1
+BOV-1615,Buffalo,7,Nili-Ravi,No,6,decreased,Yes,Yes,Yes,No,Yes,Don't Know,Yes,Yes,Yes,2336968,8.45,7.2,1
+BOV-1616,Cow,7,Crossbred,No,6,decreased,Yes,Yes,Yes,No,Yes,Yes,Don't Know,Yes,Yes,967736,8.51,7.18,1
+BOV-1617,Cow,3,Gir,No,1,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,112530,5.39,6.49,0
+BOV-1618,Buffalo,8,Murrah,No,7,normal,Yes,No,No,No,No,Yes,No,Yes,No,1320350,8.76,7.33,1
+BOV-1619,Cow,3,Jersey,No,1,normal,No,No,No,No,No,No,No,No,No,83666,5.64,6.65,0
+BOV-1620,Cow,7,Gir,No,6,normal,Yes,No,No,No,No,No,No,No,No,162917,5.46,6.61,0
+BOV-1621,Cow,2,Jersey,No,1,normal,No,No,No,No,No,No,No,No,No,85745,5.54,6.58,0
+BOV-1622,Cow,4,Holstein,No,2,normal,Yes,No,No,No,No,No,Don't Know,No,No,124442,5.55,6.57,0
+BOV-1623,Cow,3,Jersey,Yes,2,normal,Yes,Yes,Yes,No,No,Yes,Don't Know,No,Yes,975866,6.64,7.38,1
+BOV-1624,Cow,8,Holstein,No,7,normal,No,No,No,No,No,Don't Know,No,No,No,185403,5.66,6.63,0
+BOV-1625,Cow,5,Holstein,No,4,normal,No,No,No,No,No,Don't Know,No,No,No,117673,4.63,6.5,0
+BOV-1626,Cow,9,Jersey,No,8,normal,No,No,No,No,No,Don't Know,Don't Know,No,No,139776,5.19,6.63,0
+BOV-1627,Cow,7,Gir,Yes,5,decreased,No,Yes,No,Yes,No,Yes,Yes,No,Yes,2040845,8.26,6.93,1
+BOV-1628,Cow,11,Crossbred,Don't Know,8,normal,Yes,No,No,No,No,No,No,No,No,114739,4.59,6.45,0
+BOV-1629,Cow,5,Crossbred,No,4,normal,Yes,Yes,Yes,No,No,Yes,Yes,No,No,1716765,9.05,7.19,1
+BOV-1630,Cow,6,Holstein,No,5,decreased,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,1730702,8.9,6.93,1
+BOV-1631,Buffalo,10,Murrah,Yes,8,normal,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,2477817,8.9,7.0,1
+BOV-1632,Cow,8,Gir,No,6,normal,No,Yes,No,No,No,No,Yes,No,No,181511,5.66,6.69,0
+BOV-1633,Cow,11,Sahiwal,No,8,normal,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,713602,6.75,6.91,1
+BOV-1634,Cow,10,Jersey,No,8,normal,No,No,No,No,No,No,No,No,No,67413,4.51,6.42,0
+BOV-1635,Cow,8,Holstein,No,6,normal,No,No,No,No,No,No,No,No,No,86540,4.92,6.42,0
+BOV-1636,Cow,2,Crossbred,No,1,normal,No,No,No,No,No,No,Don't Know,No,No,175339,5.4,6.59,0
+BOV-1637,Cow,9,Gir,Yes,8,decreased,No,No,No,No,No,Yes,No,No,No,189306,4.66,6.62,0
+BOV-1638,Cow,5,Jersey,Yes,4,decreased,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,1558084,7.01,6.91,1
+BOV-1639,Cow,4,Gir,No,2,normal,No,No,No,No,No,No,Don't Know,No,No,150128,5.21,6.61,0
+BOV-1640,Cow,8,Jersey,No,7,normal,No,No,No,No,No,No,Don't Know,No,No,52263,4.91,6.51,0
+BOV-1641,Cow,4,Jersey,No,2,decreased,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2143851,6.61,7.05,1
+BOV-1642,Cow,9,Holstein,No,7,normal,No,No,No,No,No,Don't Know,No,No,No,165625,5.34,6.63,0
+BOV-1643,Cow,7,Gir,No,6,normal,No,No,No,No,No,No,No,No,No,112468,4.57,6.54,0
+BOV-1644,Cow,6,Gir,No,5,normal,No,No,Yes,No,Yes,No,No,No,No,151457,4.62,6.59,0
+BOV-1645,Buffalo,5,Nili-Ravi,No,4,normal,No,No,No,No,No,No,No,No,No,117891,4.83,6.42,0
+BOV-1646,Cow,9,Crossbred,Don't Know,7,normal,No,No,No,No,No,Don't Know,No,No,No,117355,5.67,6.48,0
+BOV-1647,Cow,9,Crossbred,Yes,7,normal,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,846426,7.95,7.31,1
+BOV-1648,Buffalo,2,Jafarabadi,Don't Know,1,decreased,No,No,No,No,No,No,No,Yes,No,110566,5.18,6.43,0
+BOV-1649,Cow,10,Holstein,No,8,normal,No,No,No,No,No,No,No,No,No,180482,4.87,6.67,0

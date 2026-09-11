@@ -1,6 +1,7 @@
 import React, { useContext, useState, useRef, useEffect } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ThemeContext } from "../context/ThemeContext";
+import { LanguageContext } from "../context/LanguageContext";
 
 export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
   const authContext = useContext(AuthContext) || {};
@@ -11,8 +12,12 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
   const theme = themeContext.theme || "light";
   const toggleTheme = themeContext.toggleTheme || (() => {});
 
+  const langContext = useContext(LanguageContext) || {};
+  const { lang, changeLanguage, t } = langContext;
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [showLangModal, setShowLangModal] = useState(false);
 
   const dropdownRef = useRef(null);
 
@@ -35,10 +40,10 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
           <img src="/favicon.svg" alt="DairyGuard Logo" style={{ width: "36px", height: "36px", borderRadius: "8px" }} />
           <div>
             <h2 style={{ fontSize: "1.15rem", color: "var(--primary)", margin: 0, fontWeight: 800, letterSpacing: "-0.01em" }}>
-              DairyGuard AI
+              {t("brand_title")}
             </h2>
-            <span style={{ fontSize: "0.75rem", color: "var(--text-muted)", display: "block" }}>
-              Bovine Mastitis & Tele-Vet Network
+            <span style={{ fontSize: "0.72rem", color: "var(--text-muted)", display: "block" }}>
+              {t("brand_sub")}
             </span>
           </div>
         </div>
@@ -52,65 +57,60 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
           ☰
         </button>
 
-        {/* Navigation Tabs & 3-Dots Menu */}
-        <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }} className={`nav-links ${mobileMenuOpen ? "open" : ""}`}>
+        {/* Navigation Tabs & Options */}
+        <div style={{ display: "flex", alignItems: "center", gap: "0.65rem" }} className={`nav-links ${mobileMenuOpen ? "open" : ""}`}>
           <button
             className={`btn ${activeTab === "home" ? "btn-primary" : "btn-secondary"}`}
             style={{ fontSize: "0.85rem", padding: "0.45rem 0.85rem" }}
             onClick={() => { setActiveTab("home"); setMobileMenuOpen(false); }}
           >
-            🏠 Home
+            {t("home")}
           </button>
 
           <button
-            className={`btn ${activeTab === "analyze" ? "btn-primary" : "btn-secondary"}`}
+            className={`btn ${activeTab === "feed-test" ? "btn-primary" : "btn-secondary"}`}
+            style={{ fontSize: "0.85rem", padding: "0.45rem 0.85rem", fontWeight: 800 }}
+            onClick={() => {
+              if (!user) {
+                onOpenAuth();
+              } else {
+                setActiveTab("feed-test");
+              }
+              setMobileMenuOpen(false);
+            }}
+          >
+            {t("test_feed")}
+          </button>
+
+          <button
+            className={`btn ${activeTab === "feed-history" ? "btn-primary" : "btn-secondary"}`}
             style={{ fontSize: "0.85rem", padding: "0.45rem 0.85rem" }}
             onClick={() => {
               if (!user) {
                 onOpenAuth();
               } else {
-                setActiveTab("analyze");
+                setActiveTab("feed-history");
               }
               setMobileMenuOpen(false);
             }}
           >
-            🔬 Risk Analyzer
+            {t("history")}
           </button>
 
           <button
-            className={`btn ${activeTab === "find-vet" ? "btn-primary" : "btn-secondary"}`}
+            className={`btn ${activeTab === "feed-alerts" ? "btn-primary" : "btn-secondary"}`}
             style={{ fontSize: "0.85rem", padding: "0.45rem 0.85rem" }}
             onClick={() => {
               if (!user) {
                 onOpenAuth();
               } else {
-                setActiveTab("find-vet");
+                setActiveTab("feed-alerts");
               }
               setMobileMenuOpen(false);
             }}
           >
-            👨‍⚕️ Find Veterinarian
+            {t("alerts")}
           </button>
-
-          {user && user.role === "FARMER" && (
-            <button
-              className={`btn ${activeTab === "farmer-dash" ? "btn-primary" : "btn-secondary"}`}
-              style={{ fontSize: "0.85rem", padding: "0.45rem 0.85rem" }}
-              onClick={() => { setActiveTab("farmer-dash"); setMobileMenuOpen(false); }}
-            >
-              📊 My Dashboard
-            </button>
-          )}
-
-          {user && user.role === "DOCTOR" && (
-            <button
-              className={`btn ${activeTab === "doctor-dash" ? "btn-primary" : "btn-secondary"}`}
-              style={{ fontSize: "0.85rem", padding: "0.45rem 0.85rem" }}
-              onClick={() => { setActiveTab("doctor-dash"); setMobileMenuOpen(false); }}
-            >
-              🩺 Doctor Dashboard
-            </button>
-          )}
 
           {/* 3-Dots Options Menu Dropdown Container */}
           <div style={{ position: "relative" }} ref={dropdownRef}>
@@ -129,7 +129,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
                   <div style={{ borderBottom: "1px solid var(--card-border)", paddingBottom: "0.6rem", marginBottom: "0.4rem" }}>
                     <div style={{ fontWeight: 800, fontSize: "0.95rem", color: "var(--text-dark)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                       <span>{user.name}</span>
-                      <span style={{ fontSize: "0.7rem", background: user.role === "DOCTOR" ? "rgba(59,130,246,0.15)" : "rgba(34,197,94,0.15)", color: user.role === "DOCTOR" ? "#2563eb" : "#16a34a", padding: "0.15rem 0.5rem", borderRadius: "10px", fontWeight: 700 }}>
+                      <span style={{ fontSize: "0.7rem", background: "rgba(34,197,94,0.15)", color: "#16a34a", padding: "0.15rem 0.5rem", borderRadius: "10px", fontWeight: 700 }}>
                         {user.role}
                       </span>
                     </div>
@@ -143,20 +143,26 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
                   </div>
                 )}
 
+                {/* Choose Language Option inside 3-dots */}
+                <button
+                  className="dropdown-item"
+                  onClick={() => {
+                    setShowLangModal(true);
+                    setDropdownOpen(false);
+                  }}
+                  style={{ fontWeight: 700, color: "var(--primary)" }}
+                >
+                  🌐 {t("choose_language")}
+                </button>
+
                 {/* Theme Toggle Button inside 3-dots */}
                 <button className="dropdown-item" onClick={toggleTheme}>
                   {theme === "dark" ? "☀️ Switch to Light Mode" : "🌙 Switch to Dark Mode"}
                 </button>
 
-                {user && user.role === "FARMER" && (
+                {user && (
                   <button className="dropdown-item" onClick={() => { setActiveTab("farmer-dash"); setDropdownOpen(false); }}>
-                    📊 Farmer Dashboard
-                  </button>
-                )}
-
-                {user && user.role === "DOCTOR" && (
-                  <button className="dropdown-item" onClick={() => { setActiveTab("doctor-dash"); setDropdownOpen(false); }}>
-                    🩺 Doctor Dashboard
+                    📊 My Dashboard
                   </button>
                 )}
 
@@ -170,7 +176,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
                       setActiveTab("home");
                     }}
                   >
-                    🚪 Logout
+                    🚪 {t("logout")}
                   </button>
                 ) : (
                   <button
@@ -181,7 +187,7 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
                       setDropdownOpen(false);
                     }}
                   >
-                    🔑 Login / Register
+                    {t("login_btn")}
                   </button>
                 )}
               </div>
@@ -189,6 +195,55 @@ export default function Navbar({ activeTab, setActiveTab, onOpenAuth }) {
           </div>
         </div>
       </div>
+
+      {/* Language Selection Modal */}
+      {showLangModal && (
+        <div className="modal-overlay">
+          <div className="modal-box" style={{ maxWidth: "400px", textAlign: "center" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.25rem" }}>
+              <h3 style={{ fontSize: "1.15rem", color: "var(--text-dark)", margin: 0, fontWeight: 800 }}>
+                🌐 Choose Language / भाषा चुनें
+              </h3>
+              <button onClick={() => setShowLangModal(false)} style={{ background: "none", border: "none", fontSize: "1.4rem", cursor: "pointer", color: "var(--text-dark)" }}>×</button>
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", marginBottom: "1rem" }}>
+              <button
+                className={`btn ${lang === "en" ? "btn-primary" : "btn-secondary"}`}
+                style={{ padding: "0.75rem", fontSize: "1rem", fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem" }}
+                onClick={() => {
+                  changeLanguage("en");
+                  setShowLangModal(false);
+                }}
+              >
+                🇬🇧 English
+              </button>
+
+              <button
+                className={`btn ${lang === "hi" ? "btn-primary" : "btn-secondary"}`}
+                style={{ padding: "0.75rem", fontSize: "1rem", fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem" }}
+                onClick={() => {
+                  changeLanguage("hi");
+                  setShowLangModal(false);
+                }}
+              >
+                🇮🇳 हिंदी (Hindi)
+              </button>
+
+              <button
+                className={`btn ${lang === "mr" ? "btn-primary" : "btn-secondary"}`}
+                style={{ padding: "0.75rem", fontSize: "1rem", fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem" }}
+                onClick={() => {
+                  changeLanguage("mr");
+                  setShowLangModal(false);
+                }}
+              >
+                🚩 मराठी (Marathi)
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

@@ -100,3 +100,30 @@ def predict_mastitis_risk(input_data: FarmerPredictionInput):
     payload = input_data.model_dump() if hasattr(input_data, "model_dump") else input_data.dict()
     result = predictor.predict(payload)
     return result
+
+class FeedQualityInput(BaseModel):
+    image_base64: Optional[str] = Field(None, description="Base64 encoded image string of feed/silage sample")
+    feed_type: str = Field("Corn Silage", description="Type of feed: Corn Silage, Alfalfa, Mixed Grass, Concentrated Feed")
+    moisture_level: str = Field("Optimal (60-70%)", description="Estimated moisture content")
+    smell_rating: str = Field("Pleasant Fruity / Acidic", description="Odor assessment")
+    color_obs: str = Field("Olive Green / Golden Yellow", description="Visual color assessment")
+    mold_visible: bool = Field(False, description="Whether visible mold spots are observed")
+
+from ml.src.feed_classifier import FeedSilageClassifier
+feed_classifier_instance = FeedSilageClassifier()
+
+@app.post("/api/feed-quality/predict")
+def predict_feed_quality(input_data: FeedQualityInput):
+    try:
+        res = feed_classifier_instance.analyze_sample(
+            image_base64=input_data.image_base64,
+            feed_type=input_data.feed_type,
+            moisture_level=input_data.moisture_level,
+            smell_rating=input_data.smell_rating,
+            color_obs=input_data.color_obs,
+            mold_visible=input_data.mold_visible
+        )
+        return res
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Feed quality analysis failed: {str(e)}")
+

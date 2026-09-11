@@ -1,8 +1,10 @@
 import React, { useState, useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
+import { LanguageContext } from "../context/LanguageContext";
 
 export default function AuthModal({ isOpen, onClose }) {
   const { login, register } = useContext(AuthContext);
+  const { t } = useContext(LanguageContext);
   const [isRegisterMode, setIsRegisterMode] = useState(false);
   const [role, setRole] = useState("FARMER");
   const [error, setError] = useState(null);
@@ -101,7 +103,7 @@ export default function AuthModal({ isOpen, onClose }) {
       <div className="modal-box" style={{ maxWidth: "520px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
           <h2 style={{ fontSize: "1.3rem", color: "var(--text-dark)", margin: 0 }}>
-            {isRegisterMode ? `Register as ${role}` : "Login to Account"}
+            {isRegisterMode ? t("reg_account") : t("login_to_acc")}
           </h2>
           <button onClick={onClose} style={{ background: "none", border: "none", fontSize: "1.5rem", cursor: "pointer", color: "var(--text-dark)" }}>×</button>
         </div>
@@ -112,55 +114,34 @@ export default function AuthModal({ isOpen, onClose }) {
           </div>
         )}
 
-        {isRegisterMode && (
-          <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1rem" }}>
-            <button
-              type="button"
-              className={`btn ${role === "FARMER" ? "btn-primary" : "btn-secondary"}`}
-              style={{ flex: 1, fontSize: "0.85rem", padding: "0.4rem" }}
-              onClick={() => setRole("FARMER")}
-            >
-              🧑‍🌾 FARMER
-            </button>
-            <button
-              type="button"
-              className={`btn ${role === "DOCTOR" ? "btn-primary" : "btn-secondary"}`}
-              style={{ flex: 1, fontSize: "0.85rem", padding: "0.4rem" }}
-              onClick={() => setRole("DOCTOR")}
-            >
-              👨‍⚕️ VETERINARIAN
-            </button>
-          </div>
-        )}
-
         <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "0.85rem" }}>
           {isRegisterMode && (
             <div className="form-group">
-              <label>Full Name</label>
+              <label>{t("full_name")}</label>
               <input type="text" name="name" required value={formData.name} onChange={handleChange} placeholder="e.g. Ramesh Patil" />
             </div>
           )}
 
           <div className="form-group">
-            <label>Email Address</label>
+            <label>{t("email_addr")}</label>
             <input type="email" name="email" required value={formData.email} onChange={handleChange} placeholder="farmer@domain.com" />
           </div>
 
           {isRegisterMode && (
             <div className="form-group">
-              <label>Mobile Number</label>
+              <label>{t("phone_num")}</label>
               <input type="tel" name="phone" required value={formData.phone} onChange={handleChange} placeholder="+91 98230 XXXXX" />
             </div>
           )}
 
           <div className="form-group">
-            <label>Password</label>
+            <label>{t("password")}</label>
             <input type="password" name="password" required value={formData.password} onChange={handleChange} placeholder="••••••••" />
           </div>
 
           {isRegisterMode && (
             <div className="form-group">
-              <label>Confirm Password</label>
+              <label>{t("confirm_pass")}</label>
               <input type="password" name="confirmPassword" required value={formData.confirmPassword} onChange={handleChange} placeholder="••••••••" />
             </div>
           )}
@@ -168,64 +149,40 @@ export default function AuthModal({ isOpen, onClose }) {
           {isRegisterMode && (
             <div className="panel-box" style={{ padding: "0.85rem" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.5rem" }}>
-                <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--text-dark)" }}>Structured Location Info</span>
+                <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--text-dark)" }}>{t("location_info")}</span>
                 <button
                   type="button"
                   style={{ background: "rgba(3,105,161,0.15)", color: "var(--primary)", border: "none", padding: "0.25rem 0.5rem", borderRadius: "4px", fontSize: "0.75rem", cursor: "pointer", fontWeight: 600 }}
                   onClick={handleUseCurrentLocation}
                   disabled={locLoading}
                 >
-                  {locLoading ? "Locating..." : "📍 Use My Current Location"}
+                  {locLoading ? "Locating..." : t("use_location")}
                 </button>
               </div>
 
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem" }}>
                 <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>State</label>
+                  <label style={{ fontSize: "0.75rem" }}>{t("state")}</label>
                   <input type="text" name="state" required value={formData.state} onChange={handleChange} />
                 </div>
                 <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>District</label>
+                  <label style={{ fontSize: "0.75rem" }}>{t("district")}</label>
                   <input type="text" name="district" required value={formData.district} onChange={handleChange} />
                 </div>
                 <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>City / Village</label>
+                  <label style={{ fontSize: "0.75rem" }}>{t("city")}</label>
                   <input type="text" name="city" required value={formData.city} onChange={handleChange} />
                 </div>
                 <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>Pincode</label>
+                  <label style={{ fontSize: "0.75rem" }}>{t("pincode")}</label>
                   <input type="text" name="pincode" required value={formData.pincode} onChange={handleChange} />
                 </div>
               </div>
             </div>
           )}
 
-          {isRegisterMode && role === "DOCTOR" && (
-            <div className="panel-box" style={{ padding: "0.85rem" }}>
-              <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--primary)", display: "block", marginBottom: "0.5rem" }}>Veterinary Professional Information</span>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem" }}>
-                <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>Qualification</label>
-                  <input type="text" name="qualification" required value={formData.qualification} onChange={handleChange} placeholder="B.V.Sc & A.H." />
-                </div>
-                <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>Registration No.</label>
-                  <input type="text" name="registrationNumber" required value={formData.registrationNumber} onChange={handleChange} placeholder="MSVC-1234" />
-                </div>
-                <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>Experience (Years)</label>
-                  <input type="number" name="experienceYears" required value={formData.experienceYears} onChange={handleChange} />
-                </div>
-                <div className="form-group">
-                  <label style={{ fontSize: "0.75rem" }}>Clinic Name</label>
-                  <input type="text" name="clinicName" value={formData.clinicName} onChange={handleChange} placeholder="Khamgaon Vet Clinic" />
-                </div>
-              </div>
-            </div>
-          )}
-
           <button className="btn btn-primary" type="submit" disabled={loading} style={{ marginTop: "0.5rem" }}>
-            {loading ? "Processing..." : isRegisterMode ? `Complete ${role} Registration` : "Login"}
+            {loading ? "Processing..." : isRegisterMode ? t("reg_account") : t("login_to_acc")}
           </button>
         </form>
 

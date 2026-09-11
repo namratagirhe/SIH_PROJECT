@@ -1,8 +1,14 @@
 import React, { useState, useContext } from "react";
 import { AuthProvider, AuthContext } from "./context/AuthContext";
 import { ThemeProvider, ThemeContext } from "./context/ThemeContext";
+import { LanguageProvider, LanguageContext } from "./context/LanguageContext";
+
 import Navbar from "./components/Navbar";
 import AuthModal from "./components/AuthModal";
+
+import FeedTester from "./components/FeedTester";
+import FeedHistoryView from "./components/FeedHistoryView";
+import AlertsView from "./components/AlertsView";
 
 import AnimalInfoForm from "./components/AnimalInfoForm";
 import MilkObservationForm from "./components/MilkObservationForm";
@@ -15,6 +21,8 @@ import FarmerDashboard from "./pages/FarmerDashboard";
 import DoctorDashboard from "./pages/DoctorDashboard";
 import PlatformStatsHeader from "./components/PlatformStatsHeader";
 import HomePage from "./components/HomePage";
+
+import AIChatWidget from "./components/AIChatWidget";
 
 const initialForm = {
   animal_id: "",
@@ -38,7 +46,7 @@ const initialForm = {
 function MainContent() {
   const { user } = useContext(AuthContext);
   const { theme } = useContext(ThemeContext);
-  const [activeTab, setActiveTab] = useState("home"); // 'home', 'analyze', 'find-vet', 'farmer-dash', 'doctor-dash'
+  const [activeTab, setActiveTab] = useState("home"); // 'home', 'feed-test', 'feed-history', 'feed-alerts', 'analyze', 'find-vet', 'farmer-dash', 'doctor-dash'
   const [authModalOpen, setAuthModalOpen] = useState(false);
 
   const [step, setStep] = useState(1);
@@ -120,13 +128,49 @@ function MainContent() {
         onClose={() => setAuthModalOpen(false)}
       />
 
-      {/* TABS */}
+      {/* Floating Bottom-Left Mistral AI Help Widget */}
+      <AIChatWidget />
+
+      {/* SIH26111 MAIN TABS */}
 
       {activeTab === "home" && (
         <HomePage
           onNavigate={(tab) => setActiveTab(tab)}
           onOpenAuth={() => setAuthModalOpen(true)}
         />
+      )}
+
+      {activeTab === "feed-test" && (
+        !user ? (
+          <HomePage
+            onNavigate={(tab) => setActiveTab(tab)}
+            onOpenAuth={() => setAuthModalOpen(true)}
+          />
+        ) : (
+          <FeedTester />
+        )
+      )}
+
+      {activeTab === "feed-history" && (
+        !user ? (
+          <HomePage
+            onNavigate={(tab) => setActiveTab(tab)}
+            onOpenAuth={() => setAuthModalOpen(true)}
+          />
+        ) : (
+          <FeedHistoryView onTestNew={() => setActiveTab("feed-test")} />
+        )
+      )}
+
+      {activeTab === "feed-alerts" && (
+        !user ? (
+          <HomePage
+            onNavigate={(tab) => setActiveTab(tab)}
+            onOpenAuth={() => setAuthModalOpen(true)}
+          />
+        ) : (
+          <AlertsView />
+        )
       )}
 
       {activeTab === "find-vet" && (
@@ -229,9 +273,11 @@ function MainContent() {
 export default function App() {
   return (
     <ThemeProvider>
-      <AuthProvider>
-        <MainContent />
-      </AuthProvider>
+      <LanguageProvider>
+        <AuthProvider>
+          <MainContent />
+        </AuthProvider>
+      </LanguageProvider>
     </ThemeProvider>
   );
 }

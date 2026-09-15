@@ -1,0 +1,35 @@
+## Salesforce CRM Module
+
+Developed By: Namrata Girhe
+
+### Objects
+- Farmer
+- Feed Sample
+- Alert
+- Recommendation
+
+### Relationships
+- Farmer → Feed Sample (Master-Detail)
+- Feed Sample → Alert (Lookup)
+- Feed Sample → Recommendation (Lookup)
+
+### Automation Flows
+- High Moisture Alert Flow
+- Low Fat Alert Flow
+- Low Protein Alert Flow
+- Poor Quality Recommendation Flow
+
+### Security
+- OWD Settings
+- Role Hierarchy
+- Permission Set
+
+### Validation Rules
+- Moisture Range Check
+- Protein Range Check
+
+### Reports & Dashboard
+- Feed Sample Reports
+- Alert Reports
+- Recommendation Reports
+- DairyGuard Dashboard
